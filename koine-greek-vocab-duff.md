@@ -18,7 +18,41 @@ refs:
 
 - Duff does not use accents.
 
-- Easy enter text (E.g. if Polytonic Greek not installed): <https://www.lexilogos.com/keyboard/greek_ancient.htm>
+- Easy enter text (E.g. if polytonic Greek not installed): <https://www.lexilogos.com/keyboard/greek_ancient.htm>
+
+- Accent entry with polytonic Greek: <https://www.ibiblio.org/bgreek/forum/viewtopic.php?t=759>
+
+With the polytonic Greek keyboard selected, you can enter the accented Greek letters with the following keys:
+
+```text
+# breathing
+:a    →   ἀ
+"a    →   ἁ
+
+# accents
+;a    →   ά
+'a    →   ὰ
+[a    →   ᾶ
+
+# iota subscript and diaresis
+{i    →   ϊ
+]a    →   ᾳ
+
+# macron and breve
+altGr{a →   ᾱ
+altGr}a →   ᾰ
+
+# combining
+[:a   →   ἆ
+]:a   →   ᾀ
+][:a  →   ᾆ
+]"a   →   ᾀ
+["a   →   ἆ
+;:a   →   ἄ
+'"a   →   ἃ
+':a   →   ἅ
+":a   →   ἂ
+```
 
 ## Duff Chapter 1
 
@@ -144,3 +178,5 @@ refs:
 | Πετρος     | 156
 
 | Πιστευω    | 241
+
+ι
