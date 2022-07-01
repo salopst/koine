@@ -70,7 +70,7 @@ refs:
 | 36 | 19870  | ὁ          | ἡ     | τό  | sub  | the, he/she, it, that
 | 37 | 1296   | ὄτι        |--     |--   | con  | that, since, because
 | 38 | 1606   | οὐ         | οὐκ   | οὐχ | adv  | not, no, never
-| 39 | 106    |  ὥρα       | ας    | ἡ   | sub  | hour, occasion, moment
+| 39 | 106    | ὥρα        | ας    | ἡ   | sub  | hour, occasion, moment
 | 40 | 173    | ἁμαρτία    | ας    | ἡ   | sub  | sin, sinfulness
 
 ## 2022-06-30 Koine Greek Vocab--Mounce cards 41-60
@@ -80,7 +80,7 @@ refs:
 | 41 | 55     | ἀρχή       | ῆς    | ἡ     |
 | 42 | 1041   | γάρ        | --    | --    |
 | 43 | 708    | εἶπεν      | --    | --    |
-| 44 | 1768   | εἰς        | --    | --    |
+| 44 | 1768   | εἰς        | --    | --    | prep |
 | 45 | 102    | ἐξουσία    | ας    | ἡ     |
 | 46 | 76     | εὐαγγέλιον | ου    | τό    |
 | 47 | 47     | Ἰηςοῦς     | ου    | ὁ     |
@@ -88,14 +88,14 @@ refs:
 | 49 | 1042   | μή         | --    | --    |
 | 50 | 273    | οὐρανος    | ου    | ὁ     |
 | 51 | 1338   | οὗτος      | αὗτη  | τοῦτο |
-| 52 | 1069   | ςύ         | --    | --    |
+| 52 | 1069   | σύ         | --    | --    |
 | 53 | 377    | υἱός       | οῦ    | ὁ     |
 | 54 | 83     | ὥςτε       | --    | --    |
 | 55 | 638    | ἀλλά       | --    | --    |
-| 56 | 646    | ἀπό        | --    | --    |
+| 56 | 646    | ἀπό        | --    | --    | prep |
 | 57 | 668    | διά        | --    | --    |
 | 58 | 2460   | εἰμί       | --    | --    |
-| 59 | 914    | ἐκ, ἐξ     | --    | --    |
+| 59 | 914    | ἐκ, ἐξ     | --    | --    | prep |
 | 60 | 389    | ἡμέρα      | ας    | ἡ     |
 
 ## 2022-07-01 Koine Greek Vocab--Mounce cards 61-80
@@ -108,20 +108,25 @@ refs:
 | 64 | 663    | ἵνα       | --     | --  |
 | 65 | 135    | Ἰωάννης   | ου     | ὁ   |
 | 66 | 2354   | λέγω      | --     | --  |
-| 67 | 469    | μετά      | --     | --  |
+| 67 | 469    | μετά      | --     | --  | prep |
 | 68 | 93     | οἰκία     | ας     | ἡ   |
 | 69 | 114    | οἶκος     | ου     | ὁ   |
 | 70 | 175    | ὅχλος     | ου     | ὁ   |
 | 71 | 194    | παρά      | --     | --  |
 | 72 | 50     | παραβολή  | ῆς     | ἡ   |
-| 73 | 700    | πρός      | --     | --  |
-| 74 | 220    | ὑπό       |--      | --  |
+| 73 | 700    | πρός      | --     | --  | prep |
 | 75 | 102    | ἀγαθός    | ή      | όν  |
 | 76 | 61     | ἀγαπητός  | ή      | όν  |
 | 77 | 71     | αἰώνιος   | --     | ον  |
 | 78 | 100    | ἀλλήλων   | --     | --  |
 | 79 | 82     | ἀπεκρίθη  | --     | --  |
 | 80 | 124    | δοῦλος    | ου     | ὁ   |
+
+|S575  | **ἀπό** ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ "deliver us from [the] evil" [Matt 6:13]
+|S1537 | **ἐκ, ἐξ** gen
+(ek) has a two-layered meaning ("out from and to") which makes it out-come oriented (out of the depths of the source and extending to its impact on the object). Often `of` in the KJV. ἐκ τῶν οὐρανῶν "from Heaven[s]" [Matt 3:17]
+|S| **πρός**
+|S| **ὑπό**
 
 ## 2022-07-01 Prepositional interlude
 
@@ -137,34 +142,36 @@ In general, the prepositions are used to indicate the location or motion of a no
   - ἐκ/ἐξ - "out from"
   - εἰς   - "into"
 
-| απο   | gen.   | away from
-| αντι  | gen.   | in the place of, instead of
-| ἐκ/ἐξ | gen.   | from, out of, as a result of     Proclitic
-| οπισω | gen.   | behind, after
-| χωρις | gen.   | without, apart from
-|       |        |  
-| ἐν    | dat.   | in, with, among                  Proclitic
-| συν   | dat.   | with, together with
-|       |        |
-| ανα   | acc.   | up  
-| εις   | acc.   | into, in, to  
-| προς  | acc.   | to, towards  
-| υτερ  | acc.   | above
-|       |        |
-| δια   | gen.   | through, by means of, during, after
-| δια   | acc.   | on account of, because of
-| κατα  | gen.   | down (from), against, throughout
-| κατα  | acc.   | down (to), according to, about, during
-| μετα  | gen.   | with
-| μετα  | acc.   | after
-| περι  | gen.   | for, concerning
-| περι  | acc.   | around
-| υπο   | gen.   | by (action by someone)
-| υπο   | acc.   | under
-|       |        |
-| επι   | gen.   | on, on the basis of, over, before, in the time of  
-| επι   | acc.   | upon, on, to, for  
-| επι   | dat.   | on, at, in, on top of, against  
-| παρα  | gen.   | from beside, from, in the presence of
-| παρα  | acc.   | beside, along, at the side of
-| παρα  | dat.   | beside, near, in sight of
+| S#   | M# | prep. | case   |
+|---   |--- |---    |---     |---
+| 575  | 56 | απο   | gen.   | away from
+|      |    | αντι  | gen.   | in the place of, instead of
+| 1537 | 59 | ἐκ/ἐξ | gen.   | from, out of, as a result of     Proclitic
+|      |    | οπισω | gen.   | behind, after
+|      |    | χωρις | gen.   | without, apart from
+|      |    |       |        |  
+|      |    | ἐν    | dat.   | in, with, among                  Proclitic
+|      |    | συν   | dat.   | with, together with
+|      |    |       |        |
+|      |    | ανα   | acc.   | up  
+|      |    | εις   | acc.   | into, in, to  
+|      |    | προς  | acc.   | to, towards  
+|      |    | υτερ  | acc.   | above
+|      |    |       |        |
+|      |    | δια   | gen.   | through, by means of, during, after
+|      |    | δια   | acc.   | on account of, because of
+|      |    | κατα  | gen.   | down (from), against, throughout
+|      |    | κατα  | acc.   | down (to), according to, about, during
+|      |    | μετα  | gen.   | with
+|      |    | μετα  | acc.   | after
+|      |    | περι  | gen.   | for, concerning
+|      |    | περι  | acc.   | around
+|      |    | υπο   | gen.   | by (action by someone)
+|      |    | υπο   | acc.   | under
+|      |    |       |        |
+|      |    | επι   | gen.   | on, on the basis of, over, before, in the time of  
+|      |    | επι   | acc.   | upon, on, to, for  
+|      |    | επι   | dat.   | on, at, in, on top of, against  
+|      |    | παρα  | gen.   | from beside, from, in the presence of
+|      |    | παρα  | acc.   | beside, along, at the side of
+|      |    | παρα  | dat.   | beside, near, in sight of
