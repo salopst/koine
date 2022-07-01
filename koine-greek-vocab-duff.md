@@ -20,7 +20,9 @@ refs:
 
 - Easy enter text (E.g. if polytonic Greek not installed): <https://www.lexilogos.com/keyboard/greek_ancient.htm>
 
-- Accent entry with polytonic Greek: <https://www.ibiblio.org/bgreek/forum/viewtopic.php?t=759>
+- Accent entry with polytonic Greek:
+  - -  <https://www.ibiblio.org/bgreek/forum/viewtopic.php?t=759>
+  - - <https://superuser.com/questions/30880/how-do-i-add-ancient-greek-accents-in-ubuntu>
 
 With the polytonic Greek keyboard selected, you can enter the accented Greek letters with the following keys:
 
