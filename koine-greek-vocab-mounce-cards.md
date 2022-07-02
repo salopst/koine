@@ -1,9 +1,9 @@
 ---
-title: "Koine Greek Vocab--Mounce cards"
+title: "Koine Greek Vocab--Mounce flash cards"
 author: salopst
 date: 2022-06-28T16:44:28+0100
-lastmod: NULL
-filename: ~/_scratch/koine-greek-vocab-mounce-cards.md
+lastmod: 2022-07-02T07:10:36+0100
+filename: ~/Projects/koine/koine-greek-vocab-mounce-cards.md
 filetags:
   - "koine"
   - "greek"
@@ -13,15 +13,46 @@ filetags:
   - "New Testament"
 refs: 
 - https://doxa.billmounce.com/MBG_Numbering.pdf
+- https://blueletterbible.org/
+- https://biblehub.com/
+- https://wiktionary.org
+- https://www.lexilogos.com/keyboard/greek_ancient.htm
 ---
+# Koine Greek Vocab — Mounce flash cards
 
 ## Methodology
 
 - 10 cards a day, most cursorily, in the morning.
-- Type them out here
+- Type them out here.
 - Make an effort to find a gloss for each of the previoous 10 cards.
 - At the end of each set of five, add the Strong's number and the review the gloss.
-- It is hoped that repition will make some of these stick
+- It is hoped that repition will make some of these stick.
+
+### TODO
+
+- create master dataset
+- Anki cards
+- Beg Rhinospike for modern Greek pronunciation
+- Record own pronunciation
+- Offer own database/API?
+- Redo koine Greek word of the day-- python/go/node?
+- Look into spoken koine communities... Discord/Discourse/Reddit
+- Quotation snippets
+- Words
+- Aide-mémoires/mnemonics
+
+### Table editing
+
+- org-mode, of course: <https://orgmode.org/worg/org-tutorials/tables.html>
+
+- on the web: <https://tableconvert.com>
+  
+**Visual Studio Code**:  
+
+- <https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable>
+`Ctrl + P` >> `ext install TakumiI.markdowntable`
+- `Shift + Alt + F` : format all tables
+- `Shift + Alt + T` : tab-seperated-values (TSV) to table
 
 ## 2022-06-28 Koine Greek Vocab--Mounce cards 1-20
 
@@ -175,3 +206,41 @@ In general, the prepositions are used to indicate the location or motion of a no
 |      |    | παρα  | gen.   | from beside, from, in the presence of
 |      |    | παρα  | acc.   | beside, along, at the side of
 |      |    | παρα  | dat.   | beside, near, in sight of
+
+## 2022-07-02 Koine Greek Vocab--Mounce cards 81-100
+
+| M# | Freq. | Lexeme    | Gen    | Art.    | POS  | Eng.
+|--- |---    |---------  |----    |---      |---   |---
+| 81 | 351   | ἐάν       |--      |--       |
+| 82 | 76    | ἐμός      | ἐμή    | ἐμόν    |
+| 83 | 67    | ἐντολή    | ῆς     | ἡ       |
+| 84 | 182   | καθώς     | --     | --      |
+| 85 | 50    | κακός     | ή      | όν      |
+| 86 | 564   | μου       | --     | --      |
+| 87 | 128   | νεκρός    | νεκρά  | νεκρόν  |
+| 88 | 67    | πιστός    | ή      | όν      |
+| 89 | 78    | πονηρός   | ή      | όν      |
+| 91 | 56    | τρίτος    | η      | ον      |
+| 90 | 155   | πρῶτος    | η      | ον      |
+| 92 | 233   | ἅγιος     | ἄγιη   | ἅγιον   |
+| 93 | 503   | εἰ        | --     | --      |
+| 94 | 86    | εἰ μή     | --     | --      |
+| 95 | 344   | εἷς       | μία    | ἕν      |
+| 96 | 61    | ἤδη       | --     | --      |
+| 97 | 231   | ὄνομα     | ματος  | ματό    |
+| 98 | 234   | οὐδείς    | οὐδεμί | οὐδέν   |
+| 99 | 1244  | πᾶς       | πᾶσα   | πᾶν     |
+|100 | 333   | περί      | --     | --      |
+
+## Mnemonics
+
+**καθώς**  [m84,s2531] kathōs
+"as, even as, just as"  
+(kathṓs), from καθ- (kath-) (from κατά (katá)) + ὡς (hōs).
+
+**ὡς** [m?,s613] hōs "like, just as"
+
+**ὥςτε** [m54, s5620] hōste "therefore"
+";v = ὥςτε
+
+**ἵνα** [m64,s2443] hina "so that"
