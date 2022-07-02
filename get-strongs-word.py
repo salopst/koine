@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # ---
-# title: "Scrape Mounce for Koine words"
+# title: "Get a word based on a Strong's number.... or a random one."
 # author: salopst
 # date: 2022-06-29T07:19:29+01:00
-# lastmod: NULL
-# filename: "~/Projects/koine/scrape-mounce.py"
+# lastmod: 2022-07-02T16:47:01+01:00
+# filename: "~/Projects/koine/get-strongs-word.py"
 # refs:
 # -  https://biblehub.com/greek/4653.htm
 # - https://www.blueletterbible.org/lexicon/g4653
@@ -19,8 +19,10 @@ from bs4 import BeautifulSoup
 import random
 
 STRONGS_MAX  = 5624
+strongs_new = input("Enter Strong's number (leave blank for random): ")
+if strongs_new == "":
+    strongs_new = random.randint(1, STRONGS_MAX)
 strongs_used = []
-strongs_new  =   random.randint(1,STRONGS_MAX)
 strongs_used = strongs_used.append(strongs_new)
 strongs_str  = str(strongs_new) 
 
