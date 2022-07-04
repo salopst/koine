@@ -56,6 +56,20 @@ altGr}a →   ᾰ
 ":a   →   ἂ
 ```
 
+| Result             | Key combination                   | Works for…
+|---                 |---                                |---
+| Tonos/Acute ΄      | Dead key + ; + vowel              | All vowels: ά έ ή ί ύ ό
+| Dialytika ¨        | Dead key + : + vowel              | These vowels: ϊ ϋ
+| Dialytika & Tonos  | Dead key + ;: + vowel             | These vowels: ΐ ΰ
+| Dialytika & Tonos  | Dead key + :; + vowel             | These vowels ΐ
+| Περισπωμένη ῀      | AltGr + Dead key +[ + vowel       | ᾶ ῆ ῖ ῦ
+| Υπογεγραμμένη      | AltGr + Dead key +] + vowel       | ᾳ ῃ
+| Ψιλή ᾿             | AltGr + Dead key +: + vowel or ρ  | ἀ ἐ ἠ ἰ ὐ ὀ ὠ
+| Δασεία ῾           | AltGr + Dead key +” + vowel or ρ  | ἁ ἑ ἡ ἱ ὑ ὁ ὡ
+| Βαρεία `           | AltGr + Dead key +’ + vowel       | ὰ ὲ ὴ ὶ ὺ ὸ
+| Μακρόν ¯           | AltGr + Dead key +{ + vowel       | ᾱ ῑ ῡ
+| Βραχύ ˘            | AltGr + Dead key +} + vowel       | ᾰ ῐ ῠ
+
 ## Duff Chapter 1
 
 ### 2022-06-30
@@ -130,7 +144,7 @@ altGr}a →   ᾰ
 | ἀνθρωπος | 550  |
 | λαος     | 142  |
 
-## Chapter 3
+## Duff Chapter 3
 
 ## 2022-07-01
 
@@ -181,4 +195,4 @@ altGr}a →   ᾰ
 
 | Πιστευω    | 241
 
-ι
+## Duff Chapter 4
