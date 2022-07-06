@@ -25,12 +25,13 @@ refs:
 - 10 cards a day, most cursorily, in the morning.
 - Type them out here.
 - Make an effort to find a gloss for each of the previoous 10 cards.
-- At the end of each set of five, add the Strong's number and the review the gloss.
+- ~~At the end of each set of five, add the Strong's number and the review the gloss.~~ randomly add glosses for n cards. Presnece of Strongs in the below lists should be *some* indication that the word has been studied.
 - It is hoped that repition will make some of these stick.
 
 ### TODO
 
 - create master dataset
+- Do I need to specify the stem type? έλπιδο*θέλεματ* -- s3fcd (dental)
 - Anki cards
 - Beg Rhinospike for modern Greek pronunciation
 - Record own pronunciation
@@ -278,9 +279,7 @@ In general, the prepositions are used to indicate the location or motion of a no
 |     | 119 | 83    | μήτηρ    | μητρός  | ἡ    |      |      |
 |     | 120 | 143   | οὐδέ     | --      | --   |      |      |
 
-**TODO:** Do I need to specify the stem type? έλπιδο*θέλεματ* -- s3fcd (dental)
-
-## 🇱🇷🇱🇷 2022-07-04 Koine Greek Vocab--Mounce cards 101-120
+## 🇱🇷🇱🇷 2022-07-04 Koine Greek Vocab--Mounce cards 121-140
 
 | S#  | M#  | Freq. | Lexeme     | Gen     | Art. | POS  | Eng. |
 | --- | --- | ----- | --------   | ------- | ---- | ---  | ---- |
@@ -295,16 +294,15 @@ In general, the prepositions are used to indicate the location or motion of a no
 |     | 129 | 59    | διδάσκαλος | ου      | ὁ    |
 |     | 130 | 51    | εὐθεύς     | --      | --   |
 |     | 131 | 146   | ἕως        | --      | --   |
-
-|     | 132 | 261 | μαθητής  | οῦ      | ὁ
-|     | 133 | 179 | μέν      |--       |--
-|     | 134 | 90  | μηδείς   | μηδεμία | μηδέν
-|     | 135 | 114 | μόνος    |η        |ον
-|     | 136 | 53  | ὅπος     |--       |--
-|     | 137 | 110 | ὅσος     | η       | ον
-|     | 138 | 499 | οὖν      |--       |--
-|     | 139 | 100 | ὀφθαλμός | οῦ      | ὁ
-|     | 140 | 141 | πάλιν    |--       |--
+|     | 132 | 261   | μαθητής    | οῦ      | ὁ    |
+|     | 133 | 179   | μέν        |--       |--    |
+|     | 134 | 90    | μηδείς     | μηδεμία | μηδέν|
+|     | 135 | 114   | μόνος      | η       | ον   |
+|     | 136 | 53    | ὅπος       | --      | --   |
+|     | 137 | 110   | ὅσος       | η       | ον   |
+|     | 138 | 499   | οὖν        | --      | --   |
+|     | 139 | 100   | ὀφθαλμός   | οῦ      | ὁ    |
+|     | 140 | 141   | πάλιν      | --      | --   |
 
 5845 -- ἡ χάρις/χάριτος -- elegance, grace, goodwill, charm en="charity"-- χαίρω (I am happy)
 n  χάρις    χάριτες
@@ -337,15 +335,104 @@ v  ἀσπί        ἀσπίδες
 
 - definitions from <https://vocab.perseus.org/lemma/90596/>
 
-5467 -- χαλεπὸς -- adj -- difficult. hard to bear.
+[s5467] -- χαλεπὸς -- adj -- difficult. hard to bear.
 nostrong -- κλῆρός, ὁ -- allotment... farm by extension?
-5395 -- φλόξ, φλογός, ἡ -- flame, fire, blaze Mounce Morphology: n-3b(2)
-3688 -- ὄνος, ὄνου, ὁ, ἡ an ass:
+[s5395] -- φλόξ, φλογός, ἡ -- flame, fire, blaze Mounce Morphology: n-3b(2)
+[s3688] -- ὄνος, ὄνου, ὁ, ἡ an ass:
 
-ἄοκνος асtіvо, dіlіgеntе
-ἀπέραντος іnfіnіtо, ѕіn fіn
-ἐλεύθερος lіbrе
-ἱκανός bаѕtаntе, ѕufісіеntе
-ἰσχῡρός fuеrtе
-καλός bеllо, bоnіtо
-μακρός lаrgо, grаndе
+### Athenaze
+
+ἄοκνος    -- асtіvо, dіlіgеnte
+ἀπέραντος -- іnfіnіtо, ѕіn fіn
+ἐλεύθερος -- lіbrе
+ἱκανός    -- bаѕtаntе, ѕufісіеntе
+ἰσχῡρός   -- fuеrtе
+καλός     -- bеllо, bоnіtо
+μακρός    -- lаrgо, grаndе
+μικρός    -- pequeñо
+άοκνος
+
+### Time related
+
+kairos vs chronos /kairologically vs chronologically
+while chronos is quantitative, kairos has a qualitative, permanent nature.
+<https://beunsettled.co/blog/more-kairos-less-chronos-live-more-work-less/>
+Asearch for "chronos" is Mounce dict== no results. IF I make a dict... include transliterations!!
+
+[s5550] χρόνος, -ου, ὁ   --  time (of the 'clock' kind)
+[s2540] καιρός, -οῦ, ὁ   --  (appointed/special/proper/God's) time
+ἕως              --  until (+gen = so far as)
+[s2117] εὐθύς          --  immediately, stat!, directly; straight (of place)
+αἰών, αἰῶνος, ὁ  --  age, eternity
+
+[m140, s3825] πάλιν            --  again
+then
+soon
+νύν                -- now
+[s3767] οὖν        -- then
+[s??]   ἀεί        -- ever, always
+[s??]   πολλάκῐς   -- often, many times
+ἀπέραντος          -- іnfіnіtо, ѕіn fіn, boundless, endless
+long time
+moment
+
+## 2020-07-05 Koine Greek Vocab--Mouncecards 141-160
+
+| S#  | M#  | Freq. | Lexeme     | Gen      | Art. | POS  | Eng. |
+| --- | --- | ----- | --------   | -------  | ---- | ---  | ---- |
+|     | 141 |  93   | πούς       | ποδός    | ό
+|     | 142 | 150   | ὑπέρ       |  --      | --
+|     | 143 | 215   | γυνή       | υυναικός | ἡ
+|     | 144 | 92    | δικαιοσύνη | ης       | ἡ
+|     | 145 | 75    | δώδεκα     | --       | --
+|     | 146 | 319   | ἑαυτοῦ     | ῆς       |
+|     | 147 | 265   | ἐκεῖνος    | η        |  ο
+|     | 148 | 343   | ἥ          | --       | --
+|     | 149 | 84    | κἀγώ       | --       | --   | conj | and I
+|     | 150 | 50    | μακάριος   | ια       | ιον
+|     | 151 | 243   | μέγας      | μεγάλη   | μέγα
+|     | 152 | 162   | πόλις      | εως      | ἡ
+|     | 153 | 416   | πολύς      | πολλή    | πολύ
+|     | 154 | 103   | πῶς        | --       | --
+|     | 155 |  77   | σημεῖον    | ου       | τό
+|     | 156 | 109   | ἀλήθεια    | ας       | ἡ
+|     | 157 |  92   | εἰρήνη     | ης       | ἡ
+|     | 158 | 94    | ἐνώπιον    | --       | --
+|     | 159 | 52    | ἐπανγγελία | ας       | ἡ
+|     | 160 | 88    | ἑπτά       | --       | --
+  
+shane gillis
+
+What's the point of not using white privilege? Seems disrespectful not to use it-- all this racism for nothing?
+
+All cis men talk about is eating pussy and fracking; we fucking hate nature. We gofishing... and don;t even eat fish
+
+Fox News is black church for old white dudes
+
+The US the most divided we've ever been? You know we had a war, right? That was pretty devisive. at least now we are talking to one another. Not like back then a dude would come round once a month with "the south are talking shit again..." "tha's It!Imma gonna walks for a month and shoot the first southern guy I see"
+
+## 2020-07-06 Koine Greek Vocab--Mouncecards 161-180
+
+| S#  | M#  | Freq. | Lexeme     | Gen      | Art. | POS  | Eng. |
+| --- | --- | ----- | --------   | -------  | ---- | ---  | ---- |
+
+|     | 161 |  62   | θρόνος     |ου      | ὁ
+|     | 162 | 177   | 'Ιερουσαήμ |--      | ή
+|     | 163 | 473   | κάτα       |--      | --
+|     | 164 | 75    | κεφαλή     |ῆς      | ἡ
+|     | 165 | 101   | ὁδός       |οῦ      | ἡ
+|     | 166 | 1365  | ὅς         |ἡ       | ἥ
+|     | 167 |  103  | ὅτε        |--      | --
+|     | 168 | 208   | οὕτως      |--      | --
+|     | 169 | 68    | πλοῖον     |ου      | τό
+|     | 170 | 68    | ῥῆμα       |ατος    | τό
+|     | 171 | 215   | τε         |--      | --
+|     | 172 | 177   | χείρ       |χειρός  | ἡ
+|     | 173 | 103   | ψυχή       |ῆσ      | ἡ
+|     | 174 | 428   | ἀκούω      |--      | --
+|     | 175 | 133   | βλέπω      |--      | --
+|     | 176 | 708   | ἔχω        |--      | --
+|     | 177 | 42    | λύω        |--      | --
+|     | 178 | 194   | νόμος      | ου     | ὁ
+|     | 179 | 82    | ὅπου       |--      | --
+|     | 180 | 241   | πιστεύω    |--      | --
