@@ -65,6 +65,8 @@ Of these unique words, the vast majority of them only occur a few times, while s
 **homonyms** same pronunciation, different orthography. `beet` vs `beat`
 **Phonemic** refers to the sounds of a language that make a distinction in meaning.
 
+**ablaut** is regular changing (usually vowel length or quality) within a word. E.g. Sing, sang, sung. Consider also the sounds of 'photograph' and 'photography'.
+
 - `Stop` and `top` pronounced differently. These differences do not have phonemic meaning in English. They are **etic** (different sounds no semantic meaning) NOT **emic** (different sounds have semantic meaning).
 - /tʰ/ in `top`
 - /t/ in `stop`
