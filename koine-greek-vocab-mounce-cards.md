@@ -22,11 +22,14 @@ refs:
 
 ## Methodology
 
-- 10 cards a day, most cursorily, in the morning.
+- of the 1000 cards, 1-325 (inclusive) are ordered from their appearance in Mounce's Basics of Biblical Greek Grammar.
+- Cards 326-1000 are ordered by frequency of occurrence in the New Testament. In this case 49 down to 10.
+- 10 cards a day, *most cursorily*, in the morning.
 - Type them out here.
-- Make an effort to find a gloss for each of the previoous 10 cards.
-- ~~At the end of each set of five, add the Strong's number and the review the gloss.~~ randomly add glosses for n cards. Presnece of Strongs in the below lists should be *some* indication that the word has been studied.
+- Make an effort to find a gloss for each of the previous 10 cards.
+- ~~At the end of each set of five, add the Strong's number and the review the gloss.~~ randomly add glosses for $n$ cards. Presence of a Strong's No. in the below lists should be *some* indication that the word has been studied.
 - It is hoped that repition will make some of these stick.
+- bit-by-bit, parse the below tables-of-twenty and jam into Anki. Obvs this will happen after adding all glosses, POS etc. So maybe revisit the *random* finding of Strong's numbers, and get back to regularity?****
 
 ### TODO
 
@@ -67,53 +70,53 @@ d | πνεύματι  →  πνεύμαςι(ν)
 
 ## 2022-06-28 Koine Greek Vocab--Mounce cards 1-20
 
-| S#  | M#  | Freq. | Lexeme    | Gen. | Art. | POS | Eng.                     |
-| --- | --- | ----- | --------- | ---- | ---- | --- | ------------------------ |
-|     | 01  | 73    | Ἀβραάμ    | --   | ὁ    | sub | Abram, Abraham           |
-|     | 02  | 75    | ἄγγελος   | ου   | ὁ    | sub | angel, messenger         |
-|     | 03  | 129   | ἀμήν      | --   | --   | int | Amen                     |
-|     | 04  | 550   | ἄνθρωπος  | ου   | ὁ    | sub | man, mankind             |
-|     | 05  | 80    | ἀπόστολος | ου   | ὁ    | sub | apostle                  |
-|     | 06  | 61    | Γαλιλαία  | ας   | ἡ    | sub | Gallilee                 |
-|     | 07  | 50    | γραφή     | ῆς   | ἡ    | sub | writing                  |
-|     | 08  | 59    | Δαβίδ     | --   | ὁ    | sub | David                    |
-|     | 09  | 166   | δόξα      | ης   | ἡ    | sub | glory, majesty, fame     |
-| 1473| 10  | 1725  | ἐγώ       | --   | --   | pns | I am                     |
-|     | 11  | 52    | ἔσχατος   | η    | ον   | adj | last, final              |
-|     | 12  | 135   | ζωή       | ῆς   | ἡ    | sub | life, life-force         |
-|     | 13  | 1317  | θεός      | οῦ   | ὁ    | sub | God, the Lord, god       |
-|     | 14  | 9153  | καί       | --   | --   | con | and, even, also, namely  |
-|     | 15  | 156   | καρδία    | ας   | ἡ    | sub | heart, life, spirit      |
-|     | 16  | 186   | κόσμος    | ου   | ὁ    | sub | world, mankind           |
-|     | 17  | 330   | λογος     | ου   | ὁ    | sub | word, statement, message |
-|     | 18  | 158   | Παῦλος    | ου   | ὁ    | sub | Paul                     |
-|     | 19  | 156   | Πέτρος    | ου   | ὁ    | sub | Peter                    |
-|     | 20  | 55    | Πιλᾶτος   | ου   | ὁ    | sub | Pilate                   |
+| S#  | M#  | Freq. | Lexeme    | Gen. | Art. | POS | Eng.                          |
+| --- | --- | ----- | --------- | ---- | ---- | --- | ------------------------      |
+| 11  | 01  | 73    | Ἀβραάμ    | --   | ὁ    | s0m | Abraham                       |
+| 32  | 02  | 75    | ἄγγελος   | ου   | ὁ    | s2m | angel, messenger              |
+| 281 | 03  | 129   | ἀμήν      | --   | --   | adv | amen, truly, so be it         |
+| 444 | 04  | 550   | ἄνθρωπος  | ου   | ὁ    | s2m | man, mankind f. == slave      |
+| 652 | 05  | 80    | ἀπόστολος | ου   | ὁ    | s2m | apostle, envoy                |
+| 1056| 06  | 61    | Γαλιλαία  | ας   | ἡ    | s1f | Gallilee                      |
+| 1124| 07  | 50    | γραφή     | ῆς   | ἡ    | s1f | writing, drawing              |
+| 1138| 08  | 59    | Δαβίδ     | --   | ὁ    | s0m | David                         |
+| 1391| 09  | 166   | δόξα      | ης   | ἡ    | sub | glory, majesty, fame, opinion |
+| 1473| 10  | 1725  | ἐγώ       | --   | --   | pns | I am                      |
+| 2078| 11  | 52    | ἔσχατος   | η    | ον   | adj | last/first, end, extreme  |
+| 2222| 12  | 135   | ζωή       | ῆς   | ἡ    | s1f | life, life-force          |
+| 2316| 13  | 1317  | θεός      | οῦ   | ὁ    | s2m | God, the Lord, a god      |
+| 2532| 14  | 9153  | καί       | --   | --   | con | and, even, also, namely   |
+| 2588| 15  | 156   | καρδία    | ας   | ἡ    | s1f | heart, life, spirit       |
+| 2889| 16  | 186   | κόσμος    | ου   | ὁ    | s2m | order, world, mode, ruler |
+| 3056| 17  | 330   | λόγος     | ου   | ὁ    | s2m | word, statement, message  |
+| 3972| 18  | 158   | Παῦλος    | ου   | ὁ    | s2m | Paul                      |
+| 4074| 19  | 156   | Πέτρος    | ου   | ὁ    | s2m | Peter, rock, stone        |
+| 4091| 20  | 55    | Πιλᾶτος   | ου   | ὁ    | sub | Pilate                    |
 
 ## 2022-06-29 Koine Greek Vocab--Mounce cards 21-40
 
 | S#  | M#  | Freq. | Lexeme   | Gen.  | Art. | POS  | Eng.                     |
 | --- | --- | ----- | -------- | ----- | ---- | ---  | ------------------------ |
 | 4151| 21  | 379   | πνεῦμα   | ματος | τό   | s3nc | air, spirit, breath      |
-|     | 22  | 114   | προφήτης | ου    | ὁ    | sub | prophet                  |
-|     | 23  | 68    | σάββατον | ου    | τό   | sub | sabbath, week            |
-|     | 24  | 75    | Σίμων    | ωνος  | ὁ    | sub | Simon                    |
-|     | 25  | 139   | φονή     | ῆς    | ἡ    | sub | sound, noise, voice      |
-|     | 26  | 529   | Χριστός  | ου    | ὁ    | sub | Christ                   |
-|     | 27  | 116   | αγάπη    | ης    | ἡ    | sub | love, friendship         |
-|     | 28  | 115   | ἄλλος    | η     | ο    | adj | other, another           |
-|     | 29  |       |          |       |      |     |                          |
-|     | 30  |       |          |       |      |     |                          |
-|     | 31  | 2792  | δέ       | --    | --   | con | but, and                 |
-|     | 32  | 2752  | ἐν       | --    | --   | con | in, on, amongst, within  |
-|     | 33  | 169   | ἔργον    | ου    | τό   | sub | work, deed, business     |
-|     | 34  | 85    | καιρός   | οῦ    | ὁ    | sub | (appointed) time, season |
-|     | 35  | 147   | νῦν      | --    | --   | adv | now, at (the) present    |
-|     | 36  | 19870 | ὁ        | ἡ     | τό   | sub | the, he/she, it, that    |
-|     | 37  | 1296  | ὄτι      | --    | --   | con | that, since, because     |
-|     | 38  | 1606  | οὐ       | οὐκ   | οὐχ  | adv | not, no, never           |
-|     | 39  | 106   | ὥρα      | ας    | ἡ    | sub | hour, occasion, moment   |
-|     | 40  | 173   | ἁμαρτία  | ας    | ἡ    | sub | sin, sinfulness          |
+| 4396| 22  | 114   | προφήτης | ου    | ὁ    | s1m  | prophet, seer            |
+| 4521| 23  | 68    | σάββατον | ου    | τό   | s2n  | sabbath, week            |
+| 4396| 24  | 75    | Σίμων    | ωνος  | ὁ    | s3m  | Simon                    |
+| 5456| 25  | 139   | φωνή     | ῆς    | ἡ    | s1f  | sound, noise, voice      |
+| 5547| 26  | 529   | Χριστός  | ου    | ὁ    | s2m  | Mesiah, Christ           |
+| 26  | 27  | 116   | ἀγάπη    | ης    | ἡ    | s1f  | love, amistad, goodwill  |
+| 243 | 28  | 115   | ἄλλος    | ή     | ὁ    | adj  | other, another           |
+| 932 | 30  | 162   | βασιλεία | ας    | ἡ    | s1f  | kingdom, royal rule      |
+| 846 | 29  | 5597  | αὐτός    | ή     | ὁ    | adj  | he, she, it... them etc. |
+| 1161| 31  | 2792  | δέ       | --    | --   | con  | but, and, then rather    |
+| 1722| 32  | 2752  | ἐν       | --    | --   | con  | in, on, amongst, within  |
+| 2041| 33  | 169   | ἔργον    | ου    | τό   | s2n  | work, deed, business     |
+| 2540| 34  | 85    | καιρός   | οῦ    | ὁ    | s1m  | (appointed) time, season |
+| 3568| 35  | 147   | νῦν      | --    | --   | adv  | now, at (the) present    |
+| 3588| 36  | 19870 | ὁ        | ἡ     | τό   | art  | the, he/she, it, that    |
+| 3754| 37  | 1296  | ὅτι      | --    | --   | con  | that, since, because     |
+| 3756| 38  | 1606  | οὐ       | οὐκ   | οὐχ  | adv  | not, no, never           |
+| 5610| 39  | 106   | ὥρα      | ας    | ἡ    | s1f  | hour, occasion, moment   |
+| 266 | 40  | 173   | ἁμαρτία  | ας    | ἡ    | s1f  | sin, sinfulness, fault, error |
 
 ## 2022-06-30 Koine Greek Vocab--Mounce cards 41-60
 
@@ -435,6 +438,29 @@ d | πνεύματι  →  πνεύμαςι(ν)
 298|158|ἐσθίω      |--  |--|
 299|79 |πέμπω      |--  |--|
 300|66 |φέρω       |--  |--|
+
+## 2020-07-13 Koine Greek Vocab--Mouncecards 301-320
+
+301|56 |μηδέ        |--  |--      |
+302|66 |πρεσβύτερος | α  |ον      |
+303|59 |λίθος       |ου  |ὁ       |
+304|57 |τοιοῦτος    |αύτη|ούτον   |
+305|79 |δίκαιος     |αία |αιον    |
+306|109|μέλλω       |--  |--      |
+307|90 |ἀπόλλυμι    |--  |--      |
+308|66 |ἀπολύω      |--  |--      |
+309|65 |εἴτε        |--  |--      |
+310|415|δίδωμι      |--  |--      |
+311|162|ἔθνος       |ους |τό      |
+312|55 |λοιπός      |ή   |όν      |
+313|80 |Μωϋσῆς      |έως |ὁ       |
+314|119|παραδίδωμι  |--  |--      |
+315|90 |πίπτω       |--  |--      |
+316|60 |ὑπάχω       |--  |--      |
+317|108|ἀνίστημι    |--  |--      |
+318|77 |ἀνοίγω      |--  |--      |
+319|143|ἀφίημι      |--  |--      |
+320|33 |δεικνύω     |--  |δείκνυμι|
 
 εἰσέρχομαι, εἰσέρχῃ (εἰσέρχει), εἰσέρχεται || εἰσερχόμεθᾰ, εἰσέρχεσθε, εἰσέρχονται
 
