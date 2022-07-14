@@ -1,4 +1,4 @@
 *.mp4
 *nogit*
-*.ods
-*lock*
+anki/**
+firebase/**
