@@ -4,5 +4,6 @@ anki/**
 firebase/**
 firebase**
 typesense/**
+data/**
 **api-key**
 **api_key**
