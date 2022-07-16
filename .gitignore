@@ -2,5 +2,7 @@
 *nogit*
 anki/**
 firebase/**
+firebase**
+typesense/**
 **api-key**
 **api_key**
