@@ -75,14 +75,37 @@ koineSchema ={
 - glosses in Latin, Old English, Spanish??
 
 **POS** Parts of Speech
--- somewhat *ad hoc* system used principally 'cause I might want to parse some of these later. TODO: dig deeper into morphological classification.
+
+- [x] TODO: dig deeper into morphological classification. Now in ./data/DictRMAC.json, but not in the tables below.s
+- [x] somewhat *ad hoc* system used principally 'cause I might want to parse some of these later.
 πνεῦμα|πνεύμαtos|τό -- s3nc -- noun/3rd/neuter/changing-stem
-n | πνεῦμα    →  πνεύματα
-a | πνεῦμα    →  πνεύματα
-g | πνεύματος →  πνεύμων
-d | πνεύματι  →  πνεύμαςι(ν)
+| n | πνεῦμα    →  πνεύματα    |
+| a | πνεῦμα    →  πνεύματα    |
+| g | πνεύματος →  πνεύμων     |
+| d | πνεύματι  →  πνεύμαςι(ν) |
 
 ἐγώ -- p1ns -- pronoun/1st person/[nom|acc|gen|dat]/singular
+
+### Card stock
+
+- <https://www.ehow.com/how_7280259_measure-thickness-cardstock.html>
+
+- Caliper is a measurement of paper thickness expressed in thousandths of an inch
+  
+- often get asked how do you measure the thickness of paper of card or card and the answer is simple – in microns using a micrometer. A micrometer is a tool for measuring very fine thicknesses.
+
+-You get 1000 microns in every millimeter, which gives you one million microns per meter!
+
+### Audio files
+
+- `*.ogg` files on *wiktionary.org
+
+- <https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Grc-%CF%88%CF%85%CF%87%CE%AE.ogg/Grc-%CF%88%CF%85%CF%87%CE%AE.ogg.mp3>
+- 💡 `Grc-` langcode prefix.
+
+```html
+<td class="unicode audiolink" style="padding-right:5px; padding-left: 0;">Audio (Classical Attic)</td><td class="audiofile"><audio id="mwe_player_0" controls="" preload="none" width="175" style="width:175px;" data-durationhint="2" data-mwtitle="Grc-ψυχή.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/a/a8/Grc-%CF%88%CF%85%CF%87%CE%AE.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Original Ogg file (132 kbps)" data-shorttitle="Ogg source" data-width="0" data-height="0" data-bandwidth="131816" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Grc-%CF%88%CF%85%CF%87%CE%AE.ogg/Grc-%CF%88%CF%85%CF%87%CE%AE.ogg.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="156232" /></audio></td><td class="audiometa" style="font-size: 80%;">(<a href="/wiki/File:Grc-%CF%88%CF%85%CF%87%CE%AE.ogg" title="File:Grc-ψυχή.ogg">file</a>)</td>
+```
 
 ### Table editing
 
@@ -308,33 +331,33 @@ d | πνεύματι  →  πνεύμαςι(ν)
 | 3598    | 165    | 101   | ὁδός        | οῦ       | ἡ       | s2f      | road, path, journey                  |
 | 3739    | 166    | 1365  | ὅς          | ἥ        | ὅ       | dem pro  | who, whom, that which                |
 | 3753    | 167    | 103   | ὅτε         | --       | --      | adv      | when, wheras                         |
-|         | 168    | 208   | οὕτως       | --       | --      |          |                                      |
-|         | 169    | 68    | πλοῖον      | ου       | τό      |          |                                      |
-|         | 170    | 68    | ῥῆμα        | ατος     | τό      |          |                                      |
-|         | 171    | 215   | τε          | --       | --      |          |                                      |
-|         | 172    | 177   | χείρ        | χειρός   | ἡ       |          |                                      |
-|         | 173    | 103   | ψυχή        | ῆσ       | ἡ       |          |                                      |
-|         | 174    | 428   | ἀκούω       | --       | --      |          |                                      |
-|         | 175    | 133   | βλέπω       | --       | --      |          |                                      |
-|         | 176    | 708   | ἔχω         | --       | --      |          |                                      |
-|         | 177    | 42    | λύω         | --       | --      |          |                                      |
-|         | 178    | 194   | νόμος       | ου       | ὁ       |          |                                      |
-|         | 179    | 82    | ὅπου        | --       | --      |          |                                      |
-|         | 180    | 241   | πιστεύω     | --       | --      |          |                                      |
+| 3779    | 168    | 208   | οὕτως       | --       | --      | adv         | thus, so, in this manner    |
+| 4143    | 169    | 68    | πλοῖον      | ου       | τό      | s2n         |  boat, ship                 |
+| 4834    | 170    | 68    | ῥῆμα        | ατος     | τό      | s3n         |  word, saying; matter, thing    |
+| 5037    | 171    | 215   | τε          | --       | --      | conj         |  and, so; τε...τε both...and |
+| 5495        | 172    | 177   | χείρ        | χειρός   | ἡ       |  s3f        | hand , arm, finger, paw                  |
+| 5590        | 173    | 103   | ψυχή        | ῆς       | ἡ       |   s3       | soul, life, self, vital spirit |
+| 191         | 174    | 428   | ἀκούω       | --       | --      |  verb       | I hear, learn, obey, understand   |
+| 991        | 175    | 133   | βλέπω       | --       | --      |   verb       |  I look at, see, consider                           |
+| 2192        | 176    | 708   | ἔχω         | --       | --      |  verb        |  I have, hold; I am (intrans.)                  |
+|  3089       | 177    | 42    | λύω         | --       | --      | verb         |   I untie, loose, set free, destroy    |
+|  3551       | 178    | 194   | νόμος       | ου       | ὁ       |  s2m        |  usage, custom; law, principle     |
+|  3699       | 179    | 82    | ὅπου        | --       | --      |  adv        |  where                                     |
+|  4100       | 180    | 241   | πιστεύω     | --       | --      |  verb        |  to believe, have faith in     |
 
 ## 2022-07-07 Koine Greek Vocab--Mouncecards 181-200
 
 | strongs | mounce | Freq. | lexeme      | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ----------- | -------- | ------- | --- | -------- |
-|         | 181    | 76    | πρόσωπον    | ου       | τό      |     |          |
-|         | 182    | 160   | τότε        | --       | --      |     |          |
-|         | 183    | 50    | τυφλός      | ἡ        | όν      |     |          |
-|         | 184    | 59    | χαρά        | χαρᾶς    | ἡ       |     |          |
-|         | 185    | 143   | ἀγαπάω      | --       | --      |     |          |
-|         | 186    | 63    | δαιμόνιου   | ου       | τό      |     |          |
-|         | 187    | 117   | ζητέω       | --       | --      |     |          |
-|         | 188    | 148   | καλέω       | --       | --      |     |          |
-|         | 189    | 296   | λαλέω       | --       | --      |     |          |
+| 4383        | 181    | 76    | πρόσωπον    | ου       | τό      | s2n    | face, appearance, presence         |
+| 5119        | 182    | 160   | τότε        | --       | --      | adv    | then, when, at that time   |
+| 5185        | 183    | 50    | τυφλός      | ἡ        | όν      |  adj   | blind, unseen, dark, closed         |
+| 5479        | 184    | 59    | χαρά        | χαρᾶς    | ἡ       |  s1f   | joy, delight, exultation         |
+|  25         | 185    | 143   | ἀγαπάω      | --       | --      | verb   |  I love, cherish, I brotherly love (agape)        |
+| 1140        | 186    | 63    | δαιμόνιου   | ου       | τό      | s2n    |  demon, (pagan) god, evil spirit        |
+| 2212        | 187    | 117   | ζητέω       | --       | --      | verb   |  to seek, to inquire, to strive          |
+| 2564        | 188    | 148   | καλέω       | --       | --      | verb    |  I call, name; invite, summon        |
+| 2980        | 189    | 296   | λαλέω       | --       | --      |  verb   |          |
 |         | 190    | 318   | οἶδα        | --       | --      |     |          |
 |         | 191    | 123   | ὅταν        | --       | --      |     |          |
 |         | 192    | 55    | πλείων      | --       | --      |     |          |
@@ -395,7 +418,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 237    | 95    | περιπατέω | --       | --      |     |          |
 |         | 238    | 56    | συναγωγή  | ῆς       | ἡ       |     |          |
 |         | 239    | 98    | φαρισαῖος | ου       | ὁ       |     |          |
-|         | 240    | 54    | χρόνοσ    | ου       | ὁ       |     |          |
+|         | 240    | 54    | χρόνος    | ου       | ὁ       |     |          |
 
 ## 2022-07-10 Koine Greek Vocab--Mouncecards 241-260
 
@@ -457,7 +480,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 284    | 24    | οὗ         | --       | --      |     |          |
 |         | 285    | 109   | παρακαλέω  | --       | --      |     |          |
 |         | 286    | 52    | πείθω      | --       | --      |     |          |
-|         | 287    | 68    | τρεῖσ      | τρία     | --      |     |          |
+|         | 287    | 68    | τρεῖς      | τρία     | --      |     |          |
 |         | 288    | 59    | ἀσπάζομαι  | --       | --      |     |          |
 |         | 289    | 63    | γραμματεύς | έως      | ὁ       |     |          |
 |         | 290    | 43    | έφή        | --       | --      |     |          |
@@ -514,7 +537,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 331    | 49    | χρεία       | ας       | ἡ       |     |          |
 |         | 332    | 48    | ἀποδίδωμι   | --       | --      |     |          |
 |         | 333    | 48    | ἔμπροσθεν   | --       | --      |     |          |
-|         | 334    | 48    | ἔρημοσ      | ον       | --      |     |          |
+|         | 334    | 48    | ἔρημος      | ον       | --      |     |          |
 |         | 335    | 48    | ποῦ         | --       | --      |     |          |
 |         | 336    | 47    | ἀμρτωλός    | ον       | ??      |     |          |
 |         | 337    | 47    | κρατέω      | --       | --      |     |          |
@@ -563,7 +586,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 370    | 42    | ἐγγίζω    | --       | --      |     |          |
 |         | 371    | 42    | Ἰάκωβος   | ου       | ὁ       |     |          |
 |         | 372    | 42    | καινός    | ή        | όν      |     |          |
-|         | 373    | 42    | μέποσ     | ους      | τό      |     |          |
+|         | 373    | 42    | μέπος     | ους      | τό      |     |          |
 |         | 374    | 42    | πάσχω     | --       | --      |     |          |
 |         | 375    | 41    | ἄξιος     | α        | ον      |     |          |
 |         | 376    | 41    | ἐργάζομαι | --       | --      |     |          |
@@ -576,7 +599,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ---------- | -------- | ------- | --- | -------- |
-|         | 381    | 41    | τέσσερεσ   | α        | --      |     |          |
+|         | 381    | 41    | τέσσερες   | α        | --      |     |          |
 |         | 382    | 41    | τιμή       | ῆς       | ἡ       |     |          |
 |         | 383    | 41    | χωρίς      | --       | --      |     |          |
 |         | 384    | 40    | ἑτοιμάζω   | --       | --      |     |          |
@@ -586,11 +609,11 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 388    | 40    | μνημεῖον   | ου       | τό      |     |          |
 |         | 389    | 40    | οἰκοδομέω  | --       | --      |     |          |
 |         | 390    | 40    | ὀλίγος     | η        | ον      |     |          |
-|         | 391    | 40    | τέλοσ      | ους      | τό      |     |          |
+|         | 391    | 40    | τέλος      | ους      | τό      |     |          |
 |         | 392    | 39    | ἅπτω       | --       | --      |     |          |
 |         | 393    | 39    | δικαιόω    | --       | --      |     |          |
 |         | 394    | 39    | ἐπιτίθημι  | --       | --      |     |          |
-|         | 395    | 39    | θύρα       | ασ       | ἡ       |     |          |
+|         | 395    | 39    | θύρα       | ας       | ἡ       |     |          |
 |         | 396    | 39    | ἱκανός     | ή        | όν      |     |          |
 |         | 397    | 39    | περισστεύω | --       | --      |     |          |
 |         | 398    | 39    | πλανάω     | --       | --      |     |          |
@@ -606,7 +629,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 403    | 38    | πειράζω     | --       | --      |     |          |
 |         | 404    | 38    | πέντε       | --       | --      |     |          |
 |         | 405    | 38    | ὑποτάσσω    | --       | --      |     |          |
-|         | 406    | 37    | ἄρχων       | οντοσ    | ὁ       |     |          |
+|         | 406    | 37    | ἄρχων       | οντος    | ὁ       |     |          |
 |         | 407    | 37    | βούλομαι    | --       | --      |     |          |
 |         | 408    | 37    | διάβολος    | ον       | --      |     |          |
 |         | 409    | 37    | διακονέω    | --       | --      |     |          |
@@ -620,7 +643,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 417    | 36    | ἅρτι        | --       | --      |     |          |
 |         | 418    | 36    | ἐπιστρέφω   | --       | --      |     |          |
 |         | 419    | 36    | εὑθέως      | --       | --      |     |          |
-|         | 420    | 36    | ὀργή        | ῆσ       | ἡ       |     |          |
+|         | 420    | 36    | ὀργή        | ῆς       | ἡ       |     |          |
 
 ## 🌞40.3°C🔥 2022-07-19 Koine Greek Vocab--Mouncecards 421-440
 
@@ -679,7 +702,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 461    | πλῆθος     | ους    | τό       |         |     |          |
 |         | 463    | ποτήριον   | ου     | τό       |         |     |          |
 |         | 462    | πλήν       | --     | --       |         |     |          |
-|         | 464    | σκότος     | ουσ    | τό       |         |     |          |
+|         | 464    | σκότος     | ους    | τό       |         |     |          |
 |         | 465    | φαίνω      | --     | --       |         |     |          |
 |         | 466    | φυλάσσω    | --     | --       |         |     |          |
 |         | 467    | φυλή       | ῆς     | ή        |         |     |          |
@@ -695,7 +718,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 477    | ἐπιτιμάω   | --     | --       |         |     |          |
 |         | 478    | Ἠλίας      | ου     | ὁ        |         |     |          |
 |         | 479    | ἰσχυρός    | ά      | όν       |         |     |          |
-|         | 480    | Καῖσαρ     | οσ     | ὁ        |         |     |          |
+|         | 480    | Καῖσαρ     | ος     | ὁ        |         |     |          |
 
 ## 2022-07-22 Koine Greek Vocab--Mouncecards 481-500
 
@@ -722,7 +745,7 @@ d | πνεύματι  →  πνεύμαςι(ν)
 |         | 499    | θυγάτηρ    | τρος   | ἡ        |         |     |          |
 |         | 500    | θυσία      | ας     | ἡ        |         |     |          |
 
-**εἰ** σ έρ  χομαι, εἰσέρχῃ (εἰσέρχει), εἰσέρχεται || εἰσερχόμεθᾰ, εἰσέρχεσθε, εἰσέρχονται
+**εἰ** `σ/ς` `έρ`  χομαι, εἰσέρχῃ (εἰσέρχει), εἰσέρχεται || εἰσερχόμεθᾰ, εἰσέρχεσθε, εἰσέρχονται
 
 ομαι, ῃ(ει), εται || όμεθᾰ,εσθε, ονται
 
