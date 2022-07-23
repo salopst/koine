@@ -76,13 +76,14 @@ koineSchema ={
 
 **POS** Parts of Speech
 
-- [x] TODO: dig deeper into morphological classification. Now in ./data/DictRMAC.json, but not in the tables below.s
+- [x] TODO: dig deeper into morphological classification. Now in `./data/DictRMAC.json, but not in the tables below.s
 - [x] somewhat *ad hoc* system used principally 'cause I might want to parse some of these later.
 πνεῦμα|πνεύμαtos|τό -- s3nc -- noun/3rd/neuter/changing-stem
-| n | πνεῦμα    →  πνεύματα    |
-| a | πνεῦμα    →  πνεύματα    |
-| g | πνεύματος →  πνεύμων     |
-| d | πνεύματι  →  πνεύμαςι(ν) |
+
+| n   | πνεῦμα    →  πνεύματα    |
+| a-a | π----------------------α |
+| g   | πνεύματος →  πνεύμων     |
+| d   | πνεύματι  →  πνεύμαςι(ν) |
 
 ἐγώ -- p1ns -- pronoun/1st person/[nom|acc|gen|dat]/singular
 
@@ -331,44 +332,44 @@ koineSchema ={
 | 3598    | 165    | 101   | ὁδός        | οῦ       | ἡ       | s2f      | road, path, journey                  |
 | 3739    | 166    | 1365  | ὅς          | ἥ        | ὅ       | dem pro  | who, whom, that which                |
 | 3753    | 167    | 103   | ὅτε         | --       | --      | adv      | when, wheras                         |
-| 3779    | 168    | 208   | οὕτως       | --       | --      | adv         | thus, so, in this manner    |
-| 4143    | 169    | 68    | πλοῖον      | ου       | τό      | s2n         |  boat, ship                 |
-| 4834    | 170    | 68    | ῥῆμα        | ατος     | τό      | s3n         |  word, saying; matter, thing    |
-| 5037    | 171    | 215   | τε          | --       | --      | conj         |  and, so; τε...τε both...and |
-| 5495        | 172    | 177   | χείρ        | χειρός   | ἡ       |  s3f        | hand , arm, finger, paw                  |
-| 5590        | 173    | 103   | ψυχή        | ῆς       | ἡ       |   s3       | soul, life, self, vital spirit |
-| 191         | 174    | 428   | ἀκούω       | --       | --      |  verb       | I hear, learn, obey, understand   |
-| 991        | 175    | 133   | βλέπω       | --       | --      |   verb       |  I look at, see, consider                           |
-| 2192        | 176    | 708   | ἔχω         | --       | --      |  verb        |  I have, hold; I am (intrans.)                  |
-|  3089       | 177    | 42    | λύω         | --       | --      | verb         |   I untie, loose, set free, destroy    |
-|  3551       | 178    | 194   | νόμος       | ου       | ὁ       |  s2m        |  usage, custom; law, principle     |
-|  3699       | 179    | 82    | ὅπου        | --       | --      |  adv        |  where                                     |
-|  4100       | 180    | 241   | πιστεύω     | --       | --      |  verb        |  to believe, have faith in     |
+| 3779    | 168    | 208   | οὕτως       | --       | --      | adv      | thus, so, in this manner             |
+| 4143    | 169    | 68    | πλοῖον      | ου       | τό      | s2n      | boat, ship                           |
+| 4834    | 170    | 68    | ῥῆμα        | ατος     | τό      | s3n      | word, saying; matter, thing          |
+| 5037    | 171    | 215   | τε          | --       | --      | conj     | and, so; τε...τε both...and          |
+| 5495    | 172    | 177   | χείρ        | χειρός   | ἡ       | s3f      | hand , arm, finger, paw              |
+| 5590    | 173    | 103   | ψυχή        | ῆς       | ἡ       | s3       | soul, life, self, vital spirit       |
+| 191     | 174    | 428   | ἀκούω       | --       | --      | verb     | I hear, learn, obey, understand      |
+| 991     | 175    | 133   | βλέπω       | --       | --      | verb     | I look at, see, consider             |
+| 2192    | 176    | 708   | ἔχω         | --       | --      | verb     | I have, hold; I am (intrans.)        |
+| 3089    | 177    | 42    | λύω         | --       | --      | verb     | I untie, loose, set free, destroy    |
+| 3551    | 178    | 194   | νόμος       | ου       | ὁ       | s2m      | usage, custom; law, principle        |
+| 3699    | 179    | 82    | ὅπου        | --       | --      | adv      | where                                |
+| 4100    | 180    | 241   | πιστεύω     | --       | --      | verb     | to believe, have faith in            |
 
 ## 2022-07-07 Koine Greek Vocab--Mouncecards 181-200
 
-| strongs | mounce | Freq. | lexeme      | genitive | article | pos | gloss_en |
-| ------- | ------ | ----- | ----------- | -------- | ------- | --- | -------- |
-| 4383        | 181    | 76    | πρόσωπον    | ου       | τό      | s2n    | face, appearance, presence         |
-| 5119        | 182    | 160   | τότε        | --       | --      | adv    | then, when, at that time   |
-| 5185        | 183    | 50    | τυφλός      | ἡ        | όν      |  adj   | blind, unseen, dark, closed         |
-| 5479        | 184    | 59    | χαρά        | χαρᾶς    | ἡ       |  s1f   | joy, delight, exultation         |
-|  25         | 185    | 143   | ἀγαπάω      | --       | --      | verb   |  I love, cherish, I brotherly love (agape)        |
-| 1140        | 186    | 63    | δαιμόνιου   | ου       | τό      | s2n    |  demon, (pagan) god, evil spirit        |
-| 2212        | 187    | 117   | ζητέω       | --       | --      | verb   |  to seek, to inquire, to strive          |
-| 2564        | 188    | 148   | καλέω       | --       | --      | verb    |  I call, name; invite, summon        |
-| 2980        | 189    | 296   | λαλέω       | --       | --      |  verb   |          |
-|         | 190    | 318   | οἶδα        | --       | --      |     |          |
-|         | 191    | 123   | ὅταν        | --       | --      |     |          |
-|         | 192    | 55    | πλείων      | --       | --      |     |          |
-|         | 193    | 86    | πληρόω      | --       | --      |     |          |
-|         | 194    | 568   | ποιέω       | --       | --      |     |          |
-|         | 195    | 70    | τηρέω       | --       | --      |     |          |
-|         | 196    | 231   | ἀποκρίνομαι | --       | --      |     |          |
-|         | 197    | 101   | δεῖ         | --       | --      |     |          |
-|         | 198    | 210   | δύναμαι     | --       | --      |     |          |
-|         | 199    | 634   | ἔρχομαι     | --       | --      |     |          |
-|         | 200    | 61    | νύξ         | νυκτός   | ἡ       |     |          |
+| strongs | mounce | Freq. | lexeme      | genitive | article | pos  | gloss_en                                  |
+| ------- | ------ | ----- | ----------- | -------- | ------- | ---- | ----------------------------------------- |
+| 4383    | 181    | 76    | πρόσωπον    | ου       | τό      | s2n  | face, appearance, presence                |
+| 5119    | 182    | 160   | τότε        | --       | --      | adv  | then, when, at that time                  |
+| 5185    | 183    | 50    | τυφλός      | ἡ        | όν      | adj  | blind, unseen, dark, closed               |
+| 5479    | 184    | 59    | χαρά        | χαρᾶς    | ἡ       | s1f  | joy, delight, exultation                  |
+| 25      | 185    | 143   | ἀγαπάω      | --       | --      | verb | I love, cherish, I brotherly love (agape) |
+| 1140    | 186    | 63    | δαιμόνιου   | ου       | τό      | s2n  | demon, (pagan) god, evil spirit           |
+| 2212    | 187    | 117   | ζητέω       | --       | --      | verb | to seek, to inquire, to strive            |
+| 2564    | 188    | 148   | καλέω       | --       | --      | verb | I call, name; invite, summon              |
+| 2980    | 189    | 296   | λαλέω       | --       | --      | verb |                                           |
+|         | 190    | 318   | οἶδα        | --       | --      |      |                                           |
+|         | 191    | 123   | ὅταν        | --       | --      |      |                                           |
+|         | 192    | 55    | πλείων      | --       | --      |      |                                           |
+|         | 193    | 86    | πληρόω      | --       | --      |      |                                           |
+|         | 194    | 568   | ποιέω       | --       | --      |      |                                           |
+|         | 195    | 70    | τηρέω       | --       | --      |      |                                           |
+|         | 196    | 231   | ἀποκρίνομαι | --       | --      |      |                                           |
+|         | 197    | 101   | δεῖ         | --       | --      |      |                                           |
+|         | 198    | 210   | δύναμαι     | --       | --      |      |                                           |
+|         | 199    | 634   | ἔρχομαι     | --       | --      |      |                                           |
+|         | 200    | 61    | νύξ         | νυκτός   | ἡ       |      |                                           |
 
 ## 2022-07-08 Koine Greek Vocab--Mouncecards 201-220
 
@@ -744,6 +745,31 @@ koineSchema ={
 |         | 498    | ἡγέομαι    | --     | --       |         |     |          |
 |         | 499    | θυγάτηρ    | τρος   | ἡ        |         |     |          |
 |         | 500    | θυσία      | ας     | ἡ        |         |     |          |
+
+## 2022-07-23 Koine Greek Vocab--Mouncecards 501-520
+
+| strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
+| ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
+|         | 501    | 28    | ἰσχύω     | --       | --      |     |          |
+|         | 502    | 28    | μυστήριον | ου       | τό      |     |          |
+|         | 503    | 28    | νικάω     | --       | --      |     |          |
+|         | 504    | 28    | πλούσιος  | α        | ον      |     |          |
+|         | 505    | 28    | προφητεύω | --       | --      |     |          |
+|         | 506    | 28    | τελεω     | --       | --      |     |          |
+|         | 507    | 28    | χώρα      | ασ       | ἡ       |     |          |
+|         | 508    | 27    | βαστάζω   | --       | --      |     |          |
+|         | 509    | 27    | ἐλεος     | ους      | τό      |     |          |
+|         | 510    | 27    | ἐνδύω     | --       | --      |     |          |
+|         | 511    | 27    | Ἰακώβ     | --       | ὀ       |     |          |
+|         | 512    | 27    | καθαρός   | ά        | όν      |     |          |
+|         | 513    | 27    | καταργέω  | --       | --      |     |          |
+|         | 514    | 27    | κρίμα     | ατος     | τό      |     |          |
+|         | 515    | 27    | κώμη      | ης       | ἡ       |     |          |
+|         | 516    | 27    | Μαρία     | ασ       | ἡ       |     |          |
+|         | 517    | 27    | Μαριάμ    | --       | ἠ       |     |          |
+|         | 518    | 27    | πόσος     | η        | ον      |     |          |
+|         | 519    | 27    | σταυρός   | οῦ       | ὁ       |     |          |
+|         | 520    | 26    | ἀδελφή    | ῆς       | ἡ       |     |          |
 
 **εἰ** `σ/ς` `έρ`  χομαι, εἰσέρχῃ (εἰσέρχει), εἰσέρχεται || εἰσερχόμεθᾰ, εἰσέρχεσθε, εἰσέρχονται
 
