@@ -22,39 +22,22 @@ refs:
 
 ## Methodology
 
-- of the 1000 cards, 1-325 (inclusive) are ordered from their appearance in Mounce's Basics of Biblical Greek Grammar.
+- Of the 1000 cards, 1-325 (inclusive) are ordered from their appearance in Mounce's Basics of Biblical Greek Grammar.
 - Cards 326-1000 are ordered by frequency of occurrence in the New Testament. In this case 49 down to 10.
 - 10 cards a day, *most cursorily*, in the morning.
 - Type them out here.
 - Make an effort to find a gloss for each of the previous 10 cards.
-- ~~At the end of each set of five, add the Strong's number and the review the gloss.~~ randomly add glosses for $n$ cards. Presence of a Strong's No. in the below lists should be *some* indication that the word has been studied.
+- Post every 100 to blog.
+- Presence of a Strong's No. in the below lists should be *some* indication that the word has been studied.
+- Revisit at some point with GK (Goodric-Colenberger III) numbers
 - It is hoped that repition will make some of these stick.
 - bit-by-bit, parse the below tables-of-twenty and jam into Anki. Obvs this will happen after adding all glosses, POS etc. So maybe revisit the *random* finding of Strong's numbers, and get back to regularity?****
 
-- Current iteration (2022-07-18) of the db is:
+> 💡Strong's Numbers are an index of every word in the original Hebrew and Greek texts of the Bible.
+>
+> GK Numbers (Goodric-Colenberger III). An alternative; an attempt at rectifying some deficiencies of Strong's.
 
-```python
-koineSchema ={
-  'name': 'koine-words',
-  'fields': [
-    # typesense cannot index integer fields, so strongs=string
-    { 'name': 'strongs', 'type': 'string' },
-    { 'name': 'mounce', 'type': 'int32' },
-    { 'name': 'frequency', 'type': 'int32' },
-    { 'name': 'lexeme', 'type': 'string' },
-    { 'name': 'genitive', 'type': 'string' },
-    { 'name': 'article', 'type': 'string' },
-    { 'name': 'pos', 'type': 'string' },
-    { 'name': 'gloss_en', 'type': 'string' }
-    # { 'name': 'derived', 'type': 'string' }
-    # { 'name': 'mnemonic', 'type': 'string' }
-
-  ],
-  'default_sorting_field': 'frequency'
-}
-```
-
-### TODO
+## TODO
 
 -[x] create master dataset
     - firebase
@@ -63,15 +46,16 @@ koineSchema ={
     - typesense
     - localhost only
 
-- Do I need to specify the stem type? έλπιδο*θέλεματ* -- s3fcd (dental)
+- Specify the stem type? έλπιδο*θέλεματ* -- s3fcd (dental)
 - Anki cards
-- Beg Rhinospike for modern Greek pronunciation
-- Record own pronunciation
-- Redo koine Greek word of the day-- python/go/node?
+- Beg Rhinospike for modern Greek pronunciation?
+- Record own pronunciation-- Attic, Erasmian, Restored, Lucian, Modern?
+- Rewrite the awfully spammy Ruby Koine Greek Word of the Day-- Python/Go/Node?
+  - E.g. <http://stephen.yearl.us/koine-greek-word-of-the-day>-ὑπείκω
 - Look into spoken koine communities... Discord/Discourse/Reddit
 - Quotation snippet, chapter/verse "model". If yes, hand-select or generate?
-- English words derived from this greek word field?
-- Aide-mémoires/mnemonics field?
+- "Standard" English words derived from this greek word field?
+- Aide-mémoires/mnemonics field? Neologisms like 'streptalethic'
 - glosses in Latin, Old English, Spanish??
 
 **POS** Parts of Speech
@@ -121,7 +105,7 @@ koineSchema ={
 - `Shift + Alt + F` : format all tables
 - `Shift + Alt + T` : tab-seperated-values (TSV) to table
 
-## 2022-06-28 Koine Greek Vocab--Mounce cards 1-20
+## 2022-06-28 Koine Greek Vocab--Mounce Cards 1-20
 
 | strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en                      |
 | ------- | ------ | ----- | --------- | -------- | ------- | --- | ----------------------------- |
@@ -146,7 +130,7 @@ koineSchema ={
 | 4074    | 19     | 156   | Πέτρος    | ου       | ὁ       | s2m | Peter, rock, stone            |
 | 4091    | 20     | 55    | Πιλᾶτος   | ου       | ὁ       | sub | Pilate                        |
 
-## 2022-06-29 Koine Greek Vocab--Mounce cards 21-40
+## 2022-06-29 Koine Greek Vocab--Mounce Cards 21-40
 
 | strongs | mounce | Freq. | lexeme   | genitive | article | pos  | gloss_en                      |
 | ------- | ------ | ----- | -------- | -------- | ------- | ---- | ----------------------------- |
@@ -171,7 +155,7 @@ koineSchema ={
 | 5610    | 39     | 106   | ὥρα      | ας       | ἡ       | s1f  | hour, occasion, moment        |
 | 266     | 40     | 173   | ἁμαρτία  | ας       | ἡ       | s1f  | sin, sinfulness, fault, error |
 
-## 2022-06-30 Koine Greek Vocab--Mounce cards 41-60
+## 2022-06-30 Koine Greek Vocab--Mounce Cards 41-60
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos       | gloss_en                                                               |
 | ------- | ------ | ----- | ---------- | -------- | ------- | --------- | ---------------------------------------------------------------------- |
@@ -196,7 +180,7 @@ koineSchema ={
 | 1537    | 59     | 914   | ἐκ, ἐξ     | --       | --      | p+gen     | from, out of +gen                                                      |
 | 2250    | 60     | 389   | ἡμέρα      | ας       | ἡ       | s1f       | day, time of the day, time, indefinite period of time                  |
 
-## 🇨🇦🇨🇦 2022-07-01 Koine Greek Vocab--Mounce cards 61-80
+## 🇨🇦🇨🇦 2022-07-01 Koine Greek Vocab--Mounce Cards 61-80
 
 | strongs | mounce | Freq. | lexeme   | genitive | article | pos      | gloss_en                                                 |
 | ------- | ------ | ----- | -------- | -------- | ------- | -------- | -------------------------------------------------------- |
@@ -221,7 +205,7 @@ koineSchema ={
 | 611     | 79     | 82    | ἀπεκρίθη | --       | --      | V-ADI-3S | he answered (Aorist/Middle Deponent Indicative)  3rd PS) |
 | 1400    | 80     | 124   | δοῦλος   | ου       | ὁ       | s2m      | servant, slave                                           |
 
-## 🏳️‍🌈🏳️‍🌈 2022-07-02 Koine Greek Vocab--Mounce cards 81-100
+## 🏳️‍🌈🏳️‍🌈 2022-07-02 Koine Greek Vocab--Mounce Cards 81-100
 
 | strongs | mounce | Freq. | lexeme  | genitive | article | pos      | gloss_en                                                                |
 | ------- | ------ | ----- | ------- | -------- | ------- | -------- | ----------------------------------------------------------------------- |
@@ -246,7 +230,7 @@ koineSchema ={
 | 3956    | 99     | 1244  | πᾶς     | πᾶσα     | πᾶν     | adjy     | each, every , all                                                       |
 | 4012    | 100    | 333   | περί    | --       | --      | prep+g+a | (gen.) concerning, with regard to, about; (acc.) nearby, around, about, |
 
-## 2022-07-03 Koine Greek Vocab--Mounce cards 101-120
+## 2022-07-03 Koine Greek Vocab--Mounce Cards 101-120
 
 | strongs | mounce | Freq. | lexeme   | genitive | article | pos   | gloss_en                                     |
 | ------- | ------ | ----- | -------- | -------- | ------- | ----- | -------------------------------------------- |
@@ -271,7 +255,7 @@ koineSchema ={
 | 3384    | 119    | 83    | μήτηρ    | μητρός   | ἡ       | s3fc  | mother                                       |
 | 3761    | 120    | 143   | οὐδέ     | --       | --      |       | and not, nor, neither, not even              |
 
-## 🇱🇷🇱🇷 2022-07-04 Koine Greek Vocab--Mounce cards 121-140
+## 🇱🇷🇱🇷 2022-07-04 Koine Greek Vocab--Mounce Cards 121-140
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos  | gloss_en                                         |
 | ------- | ------ | ----- | ---------- | -------- | ------- | ---- | ------------------------------------------------ |
@@ -296,7 +280,7 @@ koineSchema ={
 | 3788    | 139    | 100   | ὀφθαλμός   | οῦ       | ὁ       | s2m  | eye, sight, vision                               |
 | 3825    | 140    | 141   | πάλιν      | --       | --      | adv  | again (of time); back, backwards (of place)      |
 
-## 2022-07-05 Koine Greek Vocab--Mouncecards 141-160
+## 2022-07-05 Koine Greek Vocab--Mounce Cards 141-160
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos      | gloss_en                                  |
 | ------- | ------ | ----- | ---------- | -------- | ------- | -------- | ----------------------------------------- |
@@ -321,7 +305,7 @@ koineSchema ={
 | 1860    | 159    | 52    | ἐπαγγελία  | ας       | ἡ       | s1f      | promise, annunciation                     |
 | 2033    | 160    | 88    | ἑπτά       | --       | --      | num      | seven                                     |
   
-## 2022-07-06 Koine Greek Vocab--Mouncecards 161-180
+## 2022-07-06 Koine Greek Vocab--Mounce Cards 161-180
 
 | strongs | mounce | Freq. | lexeme      | genitive | article | pos      | gloss_en                             |
 | ------- | ------ | ----- | ----------- | -------- | ------- | -------- | ------------------------------------ |
@@ -346,57 +330,57 @@ koineSchema ={
 | 3699    | 179    | 82    | ὅπου        | --       | --      | adv      | where                                |
 | 4100    | 180    | 241   | πιστεύω     | --       | --      | verb     | to believe, have faith in            |
 
-## 2022-07-07 Koine Greek Vocab--Mouncecards 181-200
+## 2022-07-07 Koine Greek Vocab--Mounce Cards 181-200
 
-| strongs | mounce | Freq. | lexeme      | genitive | article | pos  | gloss_en                                  |
-| ------- | ------ | ----- | ----------- | -------- | ------- | ---- | ----------------------------------------- |
-| 4383    | 181    | 76    | πρόσωπον    | ου       | τό      | s2n  | face, appearance, presence                |
-| 5119    | 182    | 160   | τότε        | --       | --      | adv  | then, when, at that time                  |
-| 5185    | 183    | 50    | τυφλός      | ἡ        | όν      | adj  | blind, unseen, dark, closed               |
-| 5479    | 184    | 59    | χαρά        | χαρᾶς    | ἡ       | s1f  | joy, delight, exultation                  |
-| 25      | 185    | 143   | ἀγαπάω      | --       | --      | verb | I love, cherish, I brotherly love (agape) |
-| 1140    | 186    | 63    | δαιμόνιου   | ου       | τό      | s2n  | demon, (pagan) god, evil spirit           |
-| 2212    | 187    | 117   | ζητέω       | --       | --      | verb | to seek, to inquire, to strive            |
-| 2564    | 188    | 148   | καλέω       | --       | --      | verb | I call, name; invite, summon              |
-| 2980    | 189    | 296   | λαλέω       | --       | --      | verb |                                           |
-|         | 190    | 318   | οἶδα        | --       | --      |      |                                           |
-|         | 191    | 123   | ὅταν        | --       | --      |      |                                           |
-|         | 192    | 55    | πλείων      | --       | --      |      |                                           |
-|         | 193    | 86    | πληρόω      | --       | --      |      |                                           |
-|         | 194    | 568   | ποιέω       | --       | --      |      |                                           |
-|         | 195    | 70    | τηρέω       | --       | --      |      |                                           |
-|         | 196    | 231   | ἀποκρίνομαι | --       | --      |      |                                           |
-|         | 197    | 101   | δεῖ         | --       | --      |      |                                           |
-|         | 198    | 210   | δύναμαι     | --       | --      |      |                                           |
-|         | 199    | 634   | ἔρχομαι     | --       | --      |      |                                           |
-|         | 200    | 61    | νύξ         | νυκτός   | ἡ       |      |                                           |
+| strongs | mounce | Freq. | lexeme      | genitive | article | pos      | gloss_en                                              |
+| ------- | ------ | ----- | ----------- | -------- | ------- | -------- | ----------------------------------------------------- |
+| 4383    | 181    | 76    | πρόσωπον    | ου       | τό      | s2n      | face, appearance, presence                            |
+| 5119    | 182    | 160   | τότε        | --       | --      | adv      | then, when, at that time                              |
+| 5185    | 183    | 50    | τυφλός      | ἡ        | όν      | adj      | blind, unseen, dark, closed                           |
+| 5479    | 184    | 59    | χαρά        | χαρᾶς    | ἡ       | s1f      | joy, delight, exultation                              |
+| 25      | 185    | 143   | ἀγαπάω      | --       | --      | verb     | I love, cherish, I brotherly love (agape)             |
+| 1140    | 186    | 63    | δαιμόνιου   | ου       | τό      | s2n      | demon, (pagan) god, evil spirit                       |
+| 2212    | 187    | 117   | ζητέω       | --       | --      | verb     | to seek, to inquire, to strive                        |
+| 2564    | 188    | 148   | καλέω       | --       | --      | verb     | I call, name; invite, summon                          |
+| 2980    | 189    | 296   | λαλέω       | --       | --      | verb     |                                                       |
+| 1492    | 190    | 318   | οἶδα        | --       | --      | verb     | I know, rember, understand                            |
+| 3752    | 191    | 123   | ὅταν        | --       | --      | conj     | when, whenever                                        |
+| 4119    | 192    | 55    | πλείων      | --       | --      | particle | more, greater                                         |
+| 4137    | 193    | 86    | πληρόω      | --       | --      | verb     | I complete, fulfill, fill                             |
+| 4160    | 194    | 568   | ποιέω       | --       | --      | verb     | I do, make, exercise, use                             |
+| 5083    | 195    | 70    | τηρέω       | --       | --      | verb     | I keep, guard, observe                                |
+| 611     | 196    | 231   | ἀποκρίνομαι | --       | --      | verb     | I answer, reply (middle voice of ἀποκρῑ́νω (separate)) |
+| 1163    | 197    | 101   | δεῖ         | --       | --      | particle | it is necessary, inevitable                           |
+| 1410    | 198    | 210   | δύναμαι     | --       | --      | verb     | I am able, powerful, dynamic                          |
+| 2064    | 199    | 634   | ἔρχομαι     | --       | --      | verb     | I come, go                                            |
+| 3571    | 200    | 61    | νύξ         | νυκτός   | ἡ       | s3f      | night, night-time, darkness                           |
 
-## 2022-07-08 Koine Greek Vocab--Mouncecards 201-220
+## 2022-07-08 Koine Greek Vocab--Mounce Cards 201-220
 
-| strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
-| ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
-|         | 201    | 153   | ὄστις     | ἤτις     | ὄτι     |     |          |
-|         | 202    | 153   | πορεύομαι | --       | --      |     |          |
-|         | 203    | 59    | συνάγω    | --       | --      |     |          |
-|         | 204    | 94    | τόπος     | ου       | ὁ       |     |          |
-|         | 205    | 504   | ὡς        | --       | --      |     |          |
-|         | 206    | 115   | βασιλεύς  | έως      | ὁ       |     |          |
-|         | 207    | 97    | γεννάω    | --       | --      |     |          |
-|         | 208    | 140   | ζάω       | --       | --      |     |          |
-|         | 209    | 43    | 'Ιουδάια  | ας       | ἡ       |     |          |
-|         | 210    | 195   | 'Ιουδαῖος | αία      | αῖον    |     |          |
-|         | 211    | 68    | 'Ισραήλ   | ὁ        | --      |     |          |
-|         | 212    | 66    | καρπός    | οῦ       | ὁ       |     |          |
-|         | 213    | 48    | μείζων    | --       | --      |     |          |
-|         | 214    | 109   | ὁλος      | η        | ον      |     |          |
-|         | 215    | 60    | προσκυνέω | --       | --      |     |          |
-|         | 216    | 101   | αἴρω      | --       | --      |     |          |
-|         | 217    | 74    | αποκτείνω | --       | --      |     |          |
-|         | 218    | 132   | ἀποστέλλω | --       | --      |     |          |
-|         | 219    | 77    | βαπτίζω   | --       | --      |     |          |
-|         | 220    | 222   | γινώσκω   | --       | --      |     |          |
+| strongs | mounce | Freq. | lexeme    | genitive | article | pos  | gloss_en                                                         |
+| ------- | ------ | ----- | --------- | -------- | ------- | ---- | ---------------------------------------------------------------- |
+| 3748    | 201    | 153   | ὄστις     | ἤτις     | ὄτι     | part | who, whoever; what, whatever                                     |
+| 4198    | 202    | 153   | πορεύομαι | --       | --      | verb | I go, travel, proceed; live, convey                              |
+| 4863    | 203    | 59    | συνάγω    | --       | --      | verb | I gather together; invite                                        |
+| 5117    | 204    | 94    | τόπος     | ου       | ὁ       | s2m  | place, location; opportunity; topic                              |
+| 5613    | 205    | 504   | ὡς        | --       | --      | conj | so, as, like, when, that, in order that                          |
+| 935     | 206    | 115   | βασιλεύς  | έως      | ὁ       | s3m  | king, ruler, authority                                           |
+| 1080    | 207    | 97    | γεννάω    | --       | --      | verb | I beget, produce, bring forth                                    |
+| 2198    | 208    | 140   | ζάω       | --       | --      | verb | Ι  live                                                          |
+| 2449    | 209    | 43    | 'Ιουδάια  | ας       | ἡ       | s1f  | Judea                                                            |
+| 2453    | 210    | 195   | 'Ιουδαῖος | αία      | αῖον    | adj  | Judaen, Jewish, Jew                                              |
+| 2474    | 211    | 68    | 'Ισραήλ   | ὁ        | --      | s2m  | Israel (indec.)                                                  |
+| 2590    | 212    | 66    | καρπός    | οῦ       | ὁ       | s2m  | fruit, crop; gain, result                                        |
+| 3187    | 213    | 48    | μείζων    | --       | --      | part | greater, larger                                                  |
+| 3650    | 214    | 109   | ὁλος      | η        | ον      |      | adj/adv                                                          | whole, all, complete; entirely (adv)
+| 4352    | 215    | 60    | προσκυνέω | --       | --      | verb | I worship, venerate, bow down, prostrate (proskynesis)           |
+| 142     | 216    | 101   | αἴρω      | --       | --      | verb | I raise, lift up/away                                            |
+| 615     | 217    | 74    | αποκτείνω | --       | --      | verb | I kill, slay, condemn to death (ἀπο "from") + κτείνω ("to kill") |
+| 649     | 218    | 132   | ἀποστέλλω | --       | --      | verb | I send away/out, I dismiss (ἀπό "from") + στέλλω ("to send”)     |
+| 907     | 219    | 77    | βαπτίζω   | --       | --      | verb | I baptize ,I submerge                                            |
+| 1097    | 220    | 222   | γινώσκω   | --       | --      | verb | I know, learn; preceive, recognize; distinguish, discern         |
 
-## 2022-07-09 Koine Greek Vocab--Mouncecards 221-240
+## 2022-07-09 Koine Greek Vocab--Mounce Cards 221-240
 
 | strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
@@ -421,7 +405,7 @@ koineSchema ={
 |         | 239    | 98    | φαρισαῖος | ου       | ὁ       |     |          |
 |         | 240    | 54    | χρόνος    | ου       | ὁ       |     |          |
 
-## 2022-07-10 Koine Greek Vocab--Mouncecards 241-260
+## 2022-07-10 Koine Greek Vocab--Mounce Cards 241-260
 
 | strongs | mounce | Freq. | lexeme      | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ----------- | -------- | ------- | --- | -------- |
@@ -446,7 +430,7 @@ koineSchema ={
 |         | 259    | 61    | δοξάζω      | --       | --      |     |          |
 |         | 260    | 119   | δύναμις     | εως      | ἡ       |     |          |
 
-## 2022-07-11 Koine Greek Vocab--Mouncecards 261-280
+## 2022-07-11 Koine Greek Vocab--Mounce Cards 261-280
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ---------- | -------- | ------- | --- | -------- |
@@ -471,7 +455,7 @@ koineSchema ={
 |         | 279    | 54    | εὐαγγελίζω | --       | --      |     |          |
 |         | 280    | 58    | θεωρέω     | --       | --      |     |          |
 
-## 🧡🚶🚶🥁 2022-07-12 Koine Greek Vocab--Mouncecards 281-300
+## 🧡🚶🚶🥁 2022-07-12 Koine Greek Vocab--Mounce Cards 281-300
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ---------- | -------- | ------- | --- | -------- |
@@ -496,7 +480,7 @@ koineSchema ={
 |         | 299    | 79    | πέμπω      | --       | --      |     |          |
 |         | 300    | 66    | φέρω       | --       | --      |     |          |
 
-## 2022-07-13 Koine Greek Vocab--Mouncecards 301-320
+## 2022-07-13 Koine Greek Vocab--Mounce Cards 301-320
 
 | strongs | mounce | Freq. | lexeme      | genitive | article  | pos | gloss_en |
 | ------- | ------ | ----- | ----------- | -------- | -------- | --- | -------- |
@@ -521,7 +505,7 @@ koineSchema ={
 |         | 319    | 143   | ἀφίημι      | --       | --       |     |          |
 |         | 320    | 33    | δεικνύω     | --       | δείκνυμι |     |          |
 
-## 🇫🇷🇫🇷 2022-07-14 Koine Greek Vocab--Mouncecards 321-340
+## 🇫🇷🇫🇷 2022-07-14 Koine Greek Vocab--Mounce Cards 321-340
 
 | strongs | mounce | Freq. | lexeme      | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ----------- | -------- | ------- | --- | -------- |
@@ -546,7 +530,7 @@ koineSchema ={
 |         | 339    | 47    | οὐκέτι      | --       | --      |     |          |
 |         | 340    | 47    | πρό         | --       | --      |     |          |
 
-## 2022-07-15 Koine Greek Vocab--Mouncecards 341-360|
+## 2022-07-15 Koine Greek Vocab--Mounce Cards 341-360|
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ---------- | -------- | ------- | --- | -------- |
@@ -571,7 +555,7 @@ koineSchema ={
 |         | 359    | 43    | γενεά      | ᾶς       | ᾶ       | ης  |          |
 |         | 360    | 43    | δεύτερος   | α        | ον      |     |          |
 
-## 2022-07-16 Koine Greek Vocab--Mouncecards 361-380
+## 2022-07-16 Koine Greek Vocab--Mounce Cards 361-380
 
 | strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
@@ -596,7 +580,7 @@ koineSchema ={
 |         | 379    | 41    | παρίστημι | --       | --      |     |          |
 |         | 380    | 41    | σήμερον   | --       | --      |     |          |
 
-## 2022-07-17 Koine Greek Vocab--Mouncecards 381-400
+## 2022-07-17 Koine Greek Vocab--Mounce Cards 381-400
 
 | strongs | mounce | Freq. | lexeme     | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ---------- | -------- | ------- | --- | -------- |
@@ -621,7 +605,7 @@ koineSchema ={
 |         | 399    | 39    | πράσσω     | --       | --      |     |          |
 |         | 400    | 39    | πρόβατον   | ου       | τό      |     |          |
 
-## 2022-07-18 Koine Greek Vocab--Mouncecards 401-420
+## 2022-07-18 Koine Greek Vocab--Mounce Cards 401-420
 
 | strongs | mounce | Freq. | lexeme      | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ----------- | -------- | ------- | --- | -------- |
@@ -646,7 +630,7 @@ koineSchema ={
 |         | 419    | 36    | εὑθέως      | --       | --      |     |          |
 |         | 420    | 36    | ὀργή        | ῆς       | ἡ       |     |          |
 
-## 🌞40.3°C🔥 2022-07-19 Koine Greek Vocab--Mouncecards 421-440
+## 🌞40.3°C🔥 2022-07-19 Koine Greek Vocab--Mounce Cards 421-440
 
 | strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
@@ -671,7 +655,7 @@ koineSchema ={
 |         | 439    | 34    | οἶνος     | ου       | ὁ       |     |          |
 |         | 440    | 34    | πτωχός    | ή        | όν      |     |          |
 
-## 2022-07-20 Koine Greek Vocab--Mouncecards 441-460
+## 2022-07-20 Koine Greek Vocab--Mounce Cards 441-460
 
 | strongs | mounce | Freq.       | lexeme | genitive | article | pos | gloss_en |
 | ------- | ------ | ----------- | ------ | -------- | ------- | --- | -------- |
@@ -696,7 +680,7 @@ koineSchema ={
 | 459     | 31     | καθαρίζω    | --     | --       |         |     |          |
 | 460     | 31     | ναρρησία    | ας     | ἡ        |         |     |          |
 
-## 2022-07-21 Koine Greek Vocab--Mouncecards 461-480
+## 2022-07-21 Koine Greek Vocab--Mounce Cards 461-480
 
 | strongs | mounce | Freq.      | lexeme | genitive | article | pos | gloss_en |
 | ------- | ------ | ---------- | ------ | -------- | ------- | --- | -------- |
@@ -721,7 +705,7 @@ koineSchema ={
 |         | 479    | ἰσχυρός    | ά      | όν       |         |     |          |
 |         | 480    | Καῖσαρ     | ος     | ὁ        |         |     |          |
 
-## 2022-07-22 Koine Greek Vocab--Mouncecards 481-500
+## 2022-07-22 Koine Greek Vocab--Mounce Cards 481-500
 
 | strongs | mounce | Freq.      | lexeme | genitive | article | pos | gloss_en |
 | ------- | ------ | ---------- | ------ | -------- | ------- | --- | -------- |
@@ -746,7 +730,7 @@ koineSchema ={
 |         | 499    | θυγάτηρ    | τρος   | ἡ        |         |     |          |
 |         | 500    | θυσία      | ας     | ἡ        |         |     |          |
 
-## 2022-07-23 Koine Greek Vocab--Mouncecards 501-520
+## 2022-07-23 Koine Greek Vocab--Mounce Cards 501-520
 
 | strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
@@ -770,6 +754,31 @@ koineSchema ={
 |         | 518    | 27    | πόσος     | η        | ον      |     |          |
 |         | 519    | 27    | σταυρός   | οῦ       | ὁ       |     |          |
 |         | 520    | 26    | ἀδελφή    | ῆς       | ἡ       |     |          |
+
+## 🇻🇪 Viva Bolívar 🇻🇪 2022-07-24 Koine Greek Vocab--Mounce Cards 521-540
+
+| strongs | mounce | Freq. | lexeme       | genitive | article | pos | gloss_en |
+| ------- | ------ | ----- | ------------ | -------- | ------- | --- | -------- |
+|         | 521    | 26    | ἀληθής       | ές       | --      |     |          |
+|         | 522    | 26    | ἀποκαλύπτω   | --       | --      |     |          |
+|         | 523    | 26    | ἀσθενής      | ές       | --      |     |          |
+|         | 524    | 26    | γε           | --       | --      |     |          |
+|         | 525    | 26    | ἐπεί         | --       | --      |     |          |
+|         | 526    | 26    | ἥκω          | --       | --      |     |          |
+|         | 527    | 26    | ἰάομαι       | --       | --      |     |          |
+|         | 528    | 26    | λυπέω        | --       | --      |     |          |
+|         | 529    | 26    | ὀμνύω/ὄμνυμι | --       | --      |     |          |
+|         | 530    | 26    | ὁμολογέω     | --       | --      |     |          |
+|         | 531    | 26    | οὔπω         | --       | --      |     |          |
+|         | 532    | 26    | πνευματικός  | ή        | όν      |     |          |
+|         | 533    | 26    | σός          | σή       | σόν     |     |          |
+|         | 534    | 26    | στρατιώτης   | ου       | ὁ       |     |          |
+|         | 535    | 26    | συνίμι       | --       | --      |     |          |
+|         | 536    | 26    | φρονέω       | --       | --      |     |          |
+|         | 537    | 26    | χήρα         | ας       | ἡ       |     |          |
+|         | 538    | 26    | ἀδικία       | ας       | ἡ       |     |          |
+|         | 539    | 25    | Αἴγυπτος     | ου       | ἡ       |     |          |
+|         | 540    | 25    | ἀναβλέπω     | --       | --      |     |          |
 
 **εἰ** `σ/ς` `έρ`  χομαι, εἰσέρχῃ (εἰσέρχει), εἰσέρχεται || εἰσερχόμεθᾰ, εἰσέρχεσθε, εἰσέρχονται
 
