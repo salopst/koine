@@ -7,5 +7,7 @@ typesense/**
 ktypesense/**
 kword**
 data/**
+deta/**
+vocabulary-tools/**
 **api-key**
 **api_key**
