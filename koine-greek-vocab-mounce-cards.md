@@ -357,53 +357,53 @@ refs:
 
 ## 2022-07-08 Koine Greek Vocab--Mounce Cards 201-220
 
-| strongs | mounce | Freq. | lexeme    | genitive | article | pos  | gloss_en                                                         |
-| ------- | ------ | ----- | --------- | -------- | ------- | ---- | ---------------------------------------------------------------- |
-| 3748    | 201    | 153   | ὄστις     | ἤτις     | ὄτι     | part | who, whoever; what, whatever                                     |
-| 4198    | 202    | 153   | πορεύομαι | --       | --      | verb | I go, travel, proceed; live, convey                              |
-| 4863    | 203    | 59    | συνάγω    | --       | --      | verb | I gather together; invite                                        |
-| 5117    | 204    | 94    | τόπος     | ου       | ὁ       | s2m  | place, location; opportunity; topic                              |
-| 5613    | 205    | 504   | ὡς        | --       | --      | conj | so, as, like, when, that, in order that                          |
-| 935     | 206    | 115   | βασιλεύς  | έως      | ὁ       | s3m  | king, ruler, authority                                           |
-| 1080    | 207    | 97    | γεννάω    | --       | --      | verb | I beget, produce, bring forth                                    |
-| 2198    | 208    | 140   | ζάω       | --       | --      | verb | Ι  live                                                          |
-| 2449    | 209    | 43    | 'Ιουδάια  | ας       | ἡ       | s1f  | Judea                                                            |
-| 2453    | 210    | 195   | 'Ιουδαῖος | αία      | αῖον    | adj  | Judaen, Jewish, Jew                                              |
-| 2474    | 211    | 68    | 'Ισραήλ   | ὁ        | --      | s2m  | Israel (indec.)                                                  |
-| 2590    | 212    | 66    | καρπός    | οῦ       | ὁ       | s2m  | fruit, crop; gain, result                                        |
-| 3187    | 213    | 48    | μείζων    | --       | --      | part | greater, larger                                                  |
-| 3650    | 214    | 109   | ὁλος      | η        | ον      |      | adj/adv                                                          | whole, all, complete; entirely (adv)
-| 4352    | 215    | 60    | προσκυνέω | --       | --      | verb | I worship, venerate, bow down, prostrate (proskynesis)           |
-| 142     | 216    | 101   | αἴρω      | --       | --      | verb | I raise, lift up/away                                            |
-| 615     | 217    | 74    | αποκτείνω | --       | --      | verb | I kill, slay, condemn to death (ἀπο "from") + κτείνω ("to kill") |
-| 649     | 218    | 132   | ἀποστέλλω | --       | --      | verb | I send away/out, I dismiss (ἀπό "from") + στέλλω ("to send”)     |
-| 907     | 219    | 77    | βαπτίζω   | --       | --      | verb | I baptize ,I submerge                                            |
-| 1097    | 220    | 222   | γινώσκω   | --       | --      | verb | I know, learn; preceive, recognize; distinguish, discern         |
+| strongs | mounce | Freq. | lexeme    | genitive | article | pos  | gloss_en                                                              |
+| ------- | ------ | ----- | --------- | -------- | ------- | ---- | --------------------------------------------------------------------- |
+| 3748    | 201    | 153   | ὄστις     | ἤτις     | ὄτι     | part | who, whoever; what, whatever                                          |
+| 4198    | 202    | 153   | πορεύομαι | --       | --      | verb | I go, travel, proceed; live, convey                                   |
+| 4863    | 203    | 59    | συνάγω    | --       | --      | verb | I gather together; invite                                             |
+| 5117    | 204    | 94    | τόπος     | ου       | ὁ       | s2m  | place, location; opportunity; topic                                   |
+| 5613    | 205    | 504   | ὡς        | --       | --      | conj | so, as, like, when, that, in order that                               |
+| 935     | 206    | 115   | βασιλεύς  | έως      | ὁ       | s3m  | king, ruler, authority                                                |
+| 1080    | 207    | 97    | γεννάω    | --       | --      | verb | I beget, produce, bring forth                                         |
+| 2198    | 208    | 140   | ζάω       | --       | --      | verb | Ι  live                                                               |
+| 2449    | 209    | 43    | 'Ιουδάια  | ας       | ἡ       | s1f  | Judea                                                                 |
+| 2453    | 210    | 195   | 'Ιουδαῖος | αία      | αῖον    | adj  | Judaen, Jewish, Jew                                                   |
+| 2474    | 211    | 68    | 'Ισραήλ   | ὁ        | --      | s2m  | Israel (indec.)                                                       |
+| 2590    | 212    | 66    | καρπός    | οῦ       | ὁ       | s2m  | fruit, crop; gain, result                                             |
+| 3187    | 213    | 48    | μείζων    | --       | --      | part | greater, larger                                                       |
+| 3650    | 214    | 109   | ὁλος      | η        | ον      |      | adj/adv                                                               | whole, all, complete; entirely (adv)
+| 4352    | 215    | 60    | προσκυνέω | --       | --      | verb | I worship, venerate, bow down, prostrate (proskynesis)                |
+| 142     | 216    | 101   | αἴρω      | --       | --      | verb | I raise, lift up/away                                                 |
+| 615     | 217    | 74    | αποκτείνω | --       | --      | verb | I kill, slay, condemn to death (ἀπο "from") + κτείνω ("to kill")      |
+| 649     | 218    | 132   | ἀποστέλλω | --       | --      | verb | I send away/out, I dismiss (ἀπό "from") + στέλλω ("to send”)          |
+| 907     | 219    | 77    | βαπτίζω   | --       | --      | verb | I baptize, I submerge                                                 |
+| 1097    | 220    | 222   | γινώσκω   | --       | --      | verb | I know, learn; preceive, recognize; distinguish, discern  (:=gnostic) |
 
 ## 2022-07-09 Koine Greek Vocab--Mounce Cards 221-240
 
-| strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
-| ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
-|         | 221    | 50    | γλῶςςα    | ης       | ἡ       |     |          |
-|         | 222    | 144   | ἐγείρω    | --       | --      |     |          |
-|         | 223    | 81    | ἐκβάλλω   | --       | --      |     |          |
-|         | 224    | 105   | ἐκεῖ      | --       | --      |     |          |
-|         | 225    | 114   | κρίνω     | --       | --      |     |          |
-|         | 226    | 142   | λαός      | οῦ       | ὁ       |     |          |
-|         | 227    | 118   | μένω      | --       | --      |     |          |
-|         | 228    | 454   | ὁραω      | --       | --      |     |          |
-|         | 229    | 51    | σοπία     | ας       | ἡ       |     |          |
-|         | 230    | 78    | στόμα     | ατος     | τό      |     |          |
-|         | 231    | 106   | σῴζω      | --       | --      |     |          |
-|         | 232    | 90    | ἀκολουτέω | --       | --      |     |          |
-|         | 233    | 97    | διδάσκω   | --       | --      |     |          |
-|         | 234    | 56    | ἐπερωτάω  | --       | --      |     |          |
-|         | 235    | 63    | ἐρωτάω    | --       | --      |     |          |
-|         | 236    | 208   | θέλω      | --       | --      |     |          |
-|         | 237    | 95    | περιπατέω | --       | --      |     |          |
-|         | 238    | 56    | συναγωγή  | ῆς       | ἡ       |     |          |
-|         | 239    | 98    | φαρισαῖος | ου       | ὁ       |     |          |
-|         | 240    | 54    | χρόνος    | ου       | ὁ       |     |          |
+| strongs | mounce | Freq. | lexeme    | genitive | article | pos      | gloss_en                                               |
+| ------- | ------ | ----- | --------- | -------- | ------- | -------- | ------------------------------------------------------ |
+| 1100    | 221    | 50    | γλῶσσα    | ης       | ἡ       | s1f      | tongue, language, nation                               |
+| 1453    | 222    | 144   | ἐγείρω    | --       | --      | verb     | I raise up, I wake up, I rouse                         |
+| 1544    | 223    | 81    | ἐκβάλλω   | --       | --      | verb     | I cast out, send out, banish; produce, bring forth     |
+| 1563    | 224    | 105   | ἐκεῖ      | --       | --      | particle | there, in that place                                   |
+| 2919    | 225    | 114   | κρίνω     | --       | --      | verb     | I judge, I decide, I prefer, think good                |
+| 2992    | 226    | 142   | λαός      | οῦ       | ὁ       | s2m      | people, subjects (:=laity)                             |
+| 3306    | 227    | 118   | μένω      | --       | --      | verb     | I remain, I abide; I live  (:=mentor)                  |
+| 3708    | 228    | 454   | ὁραω      | --       | --      | verb     | I see, I notice (:=-orama (ὅρᾱμᾰ -- sight, spectacle)) |
+| 4678    | 229    | 51    | σοπία     | ας       | ἡ       | s1f      |                                                        |
+| 4750    | 230    | 78    | στόμα     | ατος     | τό      | s3m      | mouth (:=colostomy)                                    |
+| 4982    | 231    | 106   | σῴζω      | --       | --      | verb     | I save, I deliver, I rescue, I heal                    |
+| 190     | 232    | 90    | ἀκολουθέω | --       | --      | verb     | I follow, I accompany, I attend                        |
+| 1321    | 233    | 97    | διδάσκω   | --       | --      | verb     | I teach                                                |
+| 1905    | 234    | 56    | ἐπερωτάω  | --       | --      | verb     | I ask (for), I question, I demand                      |
+| 2065    | 235    | 63    | ἐρωτάω    | --       | --      | verb     | I ask (for), I entreat, I request                      |
+| 2309    | 236    | 208   | θέλω      | --       | --      | verb     | I will, I wish, I want, I desire                       |
+| 4043    | 237    | 95    | περιπατέω | --       | --      | verb     | I walk (around), I wander, I live                      |
+| 4864    | 238    | 56    | συναγωγή  | ῆς       | ἡ       | s1f      | synagogue, assembly, meeting                           |
+| 5330    | 239    | 98    | φαρισαῖος | ου       | ὁ       | s1m      | Pharisee                                               |
+| 5550    | 240    | 54    | χρόνος    | ου       | ὁ       | s1m      | time, occasion                                         |
 
 ## 2022-07-10 Koine Greek Vocab--Mounce Cards 241-260
 
@@ -854,6 +854,29 @@ refs:
 |         | 598    | 22    | θεάομαι   | --       | --      |     |          |
 |         | 599    | 22    | καθεύδω   | --       | --      |     |          |
 |         | 600    | 22    | χἀκεῖνος  | --       | --      |     |          |
+
+| strongs | mounce | Freq. | lexeme       | genitive | article | pos | gloss_en |
+| ------- | ------ | ----- | ------------ | -------- | ------- | --- | -------- |
+|         | 601    | 22    | κατεργάζομαι | --       | --      |     |          |
+|         | 602    | 22    | κοιλία       | ας       | ἡ       |     |          |
+|         | 603    | 22    | Μακεδονία    | ας       | ἡ       |     |          |
+|         | 604    | 22    | μετάνοια     | ας       | ἡ       |     |          |
+|         | 605    | 22    | μηκέτι       | --       | --      |     |          |
+|         | 606    | 22    | πληγή        | ῆς       | ἡ       |     |          |
+|         | 607    | 22    | πλοῦτος      | ου       | ὁ       |     |          |
+|         | 608    | 22    | πωλέω        | --       | --      |     |          |
+|         | 609    | 22    | συνέδριον    | ου       | τό      |     |          |
+|         | 610    | 22    | τεσσεράκοντα | --       | --      |     |          |
+|         | 611    | 21    | αὐξάνω       | --       | --      |     |          |
+|         | 612    | 21    | βασιλεύω     | --       | --      |     |          |
+|         | 613    | 21    | διδασκαλία   | ας       | ἡ       |     |          |
+|         | 614    | 21    | ἐνεργέω      | --       | --      |     |          |
+|         | 615    | 21    | εὐδοκέω      | --       | --      |     |          |
+|         | 616    | 21    | ἐφίστημι     | --       | --      |     |          |
+|         | 617    | 21    | θερίζω       | --       | --      |     |          |
+|         | 618    | 21    | καθίστημι    | --       | --      |     |          |
+|         | 619    | 21    | λατρεύω      | --       | --      |     |          |
+|         | 620    | 21    | μνημονεύω    | --       | --      |     |          |
 
 **εἰ** `σ/ς` `έρ`  χομαι, εἰσέρχῃ (εἰσέρχει), εἰσέρχεται || εἰσερχόμεθᾰ, εἰσέρχεσθε, εἰσέρχονται
 
