@@ -11,13 +11,8 @@ filetags:
   - "mounce"
   - "cards"
   - "New Testament"
-refs: 
-- https://doxa.billmounce.com/MBG_Numbering.pdf
-- https://blueletterbible.org/
-- https://biblehub.com/
-- https://wiktionary.org
-- https://www.lexilogos.com/keyboard/greek_ancient.htm
 ---
+
 # Koine Greek Vocab — Mounce flash cards
 
 ## Methodology
@@ -104,6 +99,18 @@ refs:
 `Ctrl + P` >> `ext install TakumiI.markdowntable`
 - `Shift + Alt + F` : format all tables
 - `Shift + Alt + T` : tab-seperated-values (TSV) to table
+
+### References
+
+- <https://doxa.billmounce.com/MBG_Numbering.pdf>
+- <https://blueletterbible.org/>
+- <https://biblehub.com/>
+- <https://wiktionary.org>
+- <https://www.lexilogos.com/keyboard/greek_ancient.htm>
+- <https://www.officeholidays.com/holidays/>
+- Core 500 Greek/Latin Vocab -- <https://dcc.dickinson.edu/greek-core-list>
+- LSJ Dictionaries -- <https://lsj.gr/wiki/Main_Page>
+- Euxlis online lemmatiser-- <https://outils.biblissima.fr/en/eulexis/index.php>
 
 ## 2022-06-28 Koine Greek Vocab--Mounce Cards 1-20
 
@@ -780,7 +787,7 @@ refs:
 |         | 539    | 25    | Αἴγυπτος     | ου       | ἡ       |     |          |
 |         | 540    | 25    | ἀναβλέπω     | --       | --      |     |          |
 
-## 2022-07-25 Koine Greek Vocab-- Mounce Cards 541-560
+## 🇨🇺 Conmemoración del Asalto a Moncada 🇨🇺 2022-07-25 Koine Greek Vocab-- Mounce Cards 541-560
 
 | strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
@@ -805,7 +812,7 @@ refs:
 |         | 559    | 24    | ἐπιστολή  | ῆς       | ἡ       |     |          |
 |         | 560    | 24    | καταλείπω | --       | --      |     |          |
 
-## 2022-07-26 Koine Greek Vocab -- Mounce Cards 561-580
+## 🇨🇺 Conmemoración del Asalto a Moncada 🇨🇺  2022-07-26 Koine Greek Vocab -- Mounce Cards 561-580
 
 | strongs | mounce | Freq. | lexeme       | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ------------ | -------- | ------- | --- | -------- |
@@ -830,7 +837,7 @@ refs:
 |         | 579    | 23    | κατηγορέω    | --       | --      |     |          |
 |         | 580    | 23    | κοπιάω       | --       | --      |     |          |
 
-## 2022-07-27 Koine Greek Vocab -- Mounce Cards 581-600
+## 🇨🇺 Conmemoración del Asalto a Moncada 🇨🇺 2022-07-27 Koine Greek Vocab -- Mounce Cards 581-600
 
 | strongs | mounce | Freq. | lexeme    | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | --------- | -------- | ------- | --- | -------- |
@@ -855,6 +862,8 @@ refs:
 |         | 599    | 22    | καθεύδω   | --       | --      |     |          |
 |         | 600    | 22    | χἀκεῖνος  | --       | --      |     |          |
 
+## 🇵🇪 Fiestas Patrias 🇵🇪 2022-07-28 Koine Greek Vocab -- Mounce Cards 601-620
+
 | strongs | mounce | Freq. | lexeme       | genitive | article | pos | gloss_en |
 | ------- | ------ | ----- | ------------ | -------- | ------- | --- | -------- |
 |         | 601    | 22    | κατεργάζομαι | --       | --      |     |          |
@@ -877,6 +886,31 @@ refs:
 |         | 618    | 21    | καθίστημι    | --       | --      |     |          |
 |         | 619    | 21    | λατρεύω      | --       | --      |     |          |
 |         | 620    | 21    | μνημονεύω    | --       | --      |     |          |
+
+## 🇫🇴 St Olav's Day 🇫🇴 2022-07-29 Koine Greek Vocab -- Mounce Cards 621-640
+
+| strongs | mounce | Freq. | lexeme       | genitive | article | pos | gloss_en |
+| ------- | ------ | ----- | ------------ | -------- | ------- | --- | -------- |
+|         | 621    | 21    | πειρασμός    | οῦ       | ὁ       |     |          |
+|         | 622    | 21    | στρέφω       | --       | --      |     |          |
+|         | 623    | 21    | τελώνης      | ου       | ὁ       |     |          |
+|         | 624    | 21    | τιμάω        | --       | --      |     |          |
+|         | 625    | 21    | ὑπακούω      | --       | --      |     |          |
+|         | 626    | 21    | χιλίαρχος    | ου       | ὁ       |     |          |
+|         | 627    | 21    | ὡσε          | --       | --      |     |          |
+|         | 628    | 21    | αἰρία        | ας       | ἡ       |     |          |
+|         | 629    | 20    | ἀκροβυστία   | ας       | ἡ       |     |          |
+|         | 630    | 20    | ἀργύριον     | ου       | τό      |     |          |
+|         | 631    | 20    | γένος        | ους      | τό      |     |          |
+|         | 632    | 20    | γουεύς       | έως      | ὁ       |     |          |
+|         | 633    | 20    | ἐκατοντάρχης | ου       | ὁ       |     |          |
+|         | 634    | 20    | ἐπίγνωσις    | εως      | ἡ       |     |          |
+|         | 635    | 20    | ἡγεμών       | όνος     | ὁ       |     |          |
+|         | 636    | 20    | Ἰσαάκ        | ὁ        |         |     |          |
+|         | 637    | 20    | ἰχθύς        | ύος      | ὁ       |     |          |
+|         | 638    | 20    | νηστεύω      | --       | --      |     |          |
+|         | 639    | 20    | νυνί         | --       | --      |     |          |
+|         | 640    | 20    | ξύλον        | ου       | τό      |     |          |
 
 **εἰ** `σ/ς` `έρ`  χομαι, εἰσέρχῃ (εἰσέρχει), εἰσέρχεται || εἰσερχόμεθᾰ, εἰσέρχεσθε, εἰσέρχονται
 
