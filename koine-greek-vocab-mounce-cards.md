@@ -404,38 +404,38 @@ filetags:
 | 4982    | 231    | 106   | σῴζω      | --       | --      | verb     | I save, I deliver, I rescue, I heal                    |
 | 190     | 232    | 90    | ἀκολουθέω | --       | --      | verb     | I follow, I accompany, I attend                        |
 | 1321    | 233    | 97    | διδάσκω   | --       | --      | verb     | I teach                                                |
-| 1905    | 234    | 56    | ἐπερωτάω  | --       | --      | verb     | I ask (for), I question, I demand                      |
-| 2065    | 235    | 63    | ἐρωτάω    | --       | --      | verb     | I ask (for), I entreat, I request                      |
+| 1905    | 234    | 56    | ἐπερωτάω  | --       | --      | verb     | I ask for, I question, I demand                        |
+| 2065    | 235    | 63    | ἐρωτάω    | --       | --      | verb     | I ask for, I entreat, I request                        |
 | 2309    | 236    | 208   | θέλω      | --       | --      | verb     | I will, I wish, I want, I desire                       |
-| 4043    | 237    | 95    | περιπατέω | --       | --      | verb     | I walk (around), I wander, I live                      |
+| 4043    | 237    | 95    | περιπατέω | --       | --      | verb     | I walk around, I wander, I live                        |
 | 4864    | 238    | 56    | συναγωγή  | ῆς       | ἡ       | s1f      | synagogue, assembly, meeting                           |
 | 5330    | 239    | 98    | φαρισαῖος | ου       | ὁ       | s1m      | Pharisee                                               |
 | 5550    | 240    | 54    | χρόνος    | ου       | ὁ       | s1m      | time, occasion                                         |
 
 ## 2022-07-10 Koine Greek Vocab--Mounce Cards 241-260
 
-| strongs | mounce | Freq. | lexeme      | genitive | article | pos | gloss_en |
-| ------- | ------ | ----- | ----------- | -------- | ------- | --- | -------- |
-|         | 241    | 111   | ἀποθνῄσκω   | --       | --      |     |          |
-|         | 242    | 97    | ἄρτος       | ου       | ὁ       |     |          |
-|         | 243    | 122   | βάλλω       | --       | --      |     |          |
-|         | 244    | 250   | γῆ          | γῆς      | ἡ       |     |          |
-|         | 245    | 669   | γίνομαι     | --       | --      |     |          |
-|         | 246    | 194   | εἰσέρχομαι  | --       | --      |     |          |
-|         | 247    | 218   | ἐξέρχομαι   | --       | --      |     |          |
-|         | 248    | 93    | ἔτι         | --       | --      |     |          |
-|         | 249    | 176   | εὑρίσκω     | --       | --      |     |          |
-|         | 250    | 258   | λαμβάνω     | --       | --      |     |          |
-|         | 251    | 87    | οὔτε        | --       | --      |     |          |
-|         | 252    | 86    | προσέρχομαι | --       | --      |     |          |
-|         | 253    | 85    | προσεύχομαι | --       | --      |     |          |
-|         | 254    | 71    | πῦρ         | -ός      | τό      |     |          |
-|         | 256    | 117   | ἄρχω        | --       | --      |     |          |
-|         | 255    | 86    | ἀπέρχομαι   | --       | --      |     |          |
-|         | 257    | 191   | γράφω       | --       | --      |     |          |
-|         | 258    | 53    | διό         | --       | --      |     |          |
-|         | 259    | 61    | δοξάζω      | --       | --      |     |          |
-|         | 260    | 119   | δύναμις     | εως      | ἡ       |     |          |
+| strongs | mounce | Freq. | lexeme      | genitive | article | pos      | gloss_en                                                                                                                        |
+| ------- | ------ | ----- | ----------- | -------- | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 599     | 241    | 111   | ἀποθνῄσκω   | --       | --      | verb     | I die; I am killed  (ἀπο + θνῄσκω (thnḗiskō, “to die”))    :=thnetopsychism θνητός ((thntós, “mortal”) + ψῡχή (psūkhḗ, “soul”)) |
+| 740     | 242    | 97    | ἄρτος       | ου       | ὁ       | s3m      | bread, loaf, food                                                                                                               |
+| 906     | 243    | 122   | βάλλω       | --       | --      | verb     | I throw, I cast; I put, I drop (:= ballista, ballismus)                                                                         |
+| 1093    | 244    | 250   | γῆ          | γῆς      | ἡ       | 3sf      | earth; land; region; humanity  (:= geology)                                                                                     |
+| 1096    | 245    | 669   | γίνομαι     | --       | --      | verb     | I am; I become; I am born; I am created    (:=genetic)                                                                          |
+| 1525    | 246    | 194   | εἰσέρχομαι  | --       | --      | verb     | I go into; I come into; I enter into ( εἰσ- (eis-, “into”) + ἔρχομαι (érkhomai, “to go”))                                       |
+| 1831    | 247    | 218   | ἐξέρχομαι   | --       | --      | verb     | I go out of, I come out of; I go away                                                                                           |
+| 2089    | 248    | 93    | ἔτι         | --       | --      | part     | still, even, yet (mn:= yeti)                                                                                                    |
+| 2147    | 249    | 176   | εὑρίσκω     | --       | --      | verb     | I find (:= heuristics)                                                                                                          |
+| 2983    | 250    | 258   | λαμβάνω     | --       | --      | verb     | I take; I receive; I seize; I grasp                                                                                             |
+| 3777    | 251    | 87    | οὔτε        | --       | --      | conj     | and not; neither; nor (οὐ (ou, “not”) + τε (te, “and”))                                                                         |
+| 4334    | 252    | 86    | προσέρχομαι | --       | --      | verb     | I come/go to; I approach                                                                                                        |
+| 4336    | 253    | 85    | προσεύχομαι | --       | --      | verb     | I pray, vow (:= proseuche, kinda like a synagogue)                                                                              |
+| 4442    | 254    | 71    | πῦρ         | πυρός    | τό      | s3n      | fire (:= pyrotechnic)                                                                                                           |
+| 565     | 255    | 86    | ἀπέρχομαι   | --       | --      | verb     | I depart; I go away                                                                                                             |
+| 757     | 256    | 117   | ἄρχω        | --       | --      | verb     | I rule, I reign (active voice); I begin (middle voice) (:=archangel)                                                            |
+| 1125    | 257    | 191   | γράφω       | --       | --      | verb     | I write (:= graphite)                                                                                                           |
+| 1352    | 258    | 53    | διό         | --       | --      | particle | therefore, wherefore                                                                                                            |
+| 1392    | 259    | 61    | δοξάζω      | --       | --      | verb     | I glorify, I praise, I honour (:= doxology)                                                                                     |
+| 1411    | 260    | 119   | δύναμις     | εως      | ἡ       | s3h      | power, might; miracle, marvel (:= dynamic)                                                                                      |
 
 ## 2022-07-11 Koine Greek Vocab--Mounce Cards 261-280
 
