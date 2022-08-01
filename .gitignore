@@ -8,6 +8,8 @@ ktypesense/**
 kword**
 data/**
 deta/**
+koine_venv/**
+venv/**
 vocabulary-tools/**
 **api-key**
 **api_key**
